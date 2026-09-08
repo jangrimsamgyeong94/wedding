@@ -45,8 +45,15 @@
     .tab{border:0;border-radius:100px;background:transparent;color:#756d65;padding:10px 7px;font-size:11px;white-space:nowrap;transition:.25s var(--ease)}
     .tab span{margin-left:4px;opacity:.52}
     .tab.active{color:#fff;background:var(--ink);box-shadow:0 7px 18px rgba(21,19,17,.18)}
+    .local-tools{display:flex;align-items:center;gap:8px;margin-top:10px;padding:8px 10px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.64)}
+    .local-tools[hidden]{display:none}
+    .local-tools button{border:1px solid #beb3a5;border-radius:100px;background:#fff;color:var(--ink);padding:8px 13px;font-size:12px;cursor:pointer}
+    .local-tools button.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+    .local-tools .delete-selected{margin-left:auto;background:#9d2b24;color:#fff;border-color:#9d2b24}
+    .local-tools .delete-selected:disabled{opacity:.35;cursor:not-allowed}
+    .selected-count{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
     .grid{padding:5px 25px 50px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
-    .card{position:relative;border:0;padding:0;overflow:hidden;background:#ded7cd;aspect-ratio:var(--ratio,4/5);min-height:128px;isolation:isolate;animation:enter .45s var(--ease) both}
+    .card{position:relative;border:0;padding:0;overflow:hidden;background:#ded7cd;aspect-ratio:var(--ratio,4/5);min-height:128px;isolation:isolate;animation:enter .45s var(--ease) both;cursor:pointer}
     .card[hidden]{display:none}
     .card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .55s var(--ease),filter .35s}
     .card::after{content:"";position:absolute;inset:auto 0 0;height:48%;background:linear-gradient(transparent,rgba(0,0,0,.66));opacity:0;transition:.25s}
@@ -57,6 +64,15 @@
     .card:hover .card-meta,.card.active .card-meta{opacity:1;transform:none}
     .card-meta b{font-size:9px;font-weight:500;letter-spacing:.08em}
     .card-meta i{font:500 17px/1 "Cormorant Garamond",serif}
+    .delete-btn{position:absolute;z-index:4;top:8px;right:8px;width:34px;height:34px;border:1px solid rgba(255,255,255,.72);border-radius:50%;background:rgba(17,15,13,.78);color:#fff;font:400 22px/1 Arial,sans-serif;display:grid;place-items:center;opacity:0;transform:scale(.86);transition:opacity .2s,transform .2s,background .2s;cursor:pointer}
+    .card:hover .delete-btn,.card:focus-within .delete-btn{opacity:1;transform:scale(1)}
+    .delete-btn:hover,.delete-btn:focus-visible{background:#a12820;outline:2px solid #fff;outline-offset:2px}
+    .select-mark{position:absolute;z-index:4;top:10px;left:10px;width:28px;height:28px;border:2px solid #fff;border-radius:50%;background:rgba(17,15,13,.35);color:#fff;display:none;place-items:center;font:700 17px/1 Arial,sans-serif;box-shadow:0 2px 10px rgba(0,0,0,.22)}
+    .gallery-pane.selecting .select-mark,.card.selected .select-mark{display:grid}
+    .gallery-pane.selecting .delete-btn{display:none}
+    .card.selected{outline:3px solid #b28a52;outline-offset:-3px}
+    .card.selected .select-mark{background:#b28a52}
+    .gallery-pane.selecting .card{cursor:copy}
     .empty{display:none;padding:90px 20px;text-align:center;color:var(--muted)}
     .footer{padding:20px 25px 32px;border-top:1px solid var(--line);color:var(--muted);font-size:10px;line-height:1.65}
     dialog{padding:0;border:0;background:transparent;max-width:none;max-height:none;width:100vw;height:100dvh}
@@ -108,6 +124,11 @@
           <button class="tab" data-filter="couple">함께 <span id="countCouple">0</span></button>
           <button class="tab" data-filter="outdoor">야외 <span id="countOutdoor">0</span></button>
         </nav>
+        <div class="local-tools" id="localTools" hidden>
+          <button type="button" id="selectModeBtn">여러 장 선택</button>
+          <span class="selected-count" id="selectedCount">0장 선택</span>
+          <button type="button" class="delete-selected" id="deleteSelectedBtn" disabled>선택 삭제</button>
+        </div>
       </header>
       <div class="grid" id="grid"></div>
       <div class="empty" id="empty">이 카테고리에 표시할 사진이 없습니다.</div>
@@ -125,7 +146,7 @@
 
   <script>
     let items=[];
-    const state={filter:'all',visible:[],current:0};
+    const state={filter:'all',visible:[],current:0,selectionMode:false,selected:new Set()};
     const grid=document.querySelector('#grid');
     const pane=document.querySelector('#galleryPane');
     const focusImage=document.querySelector('#focusImage');
@@ -137,20 +158,71 @@
     const lightbox=document.querySelector('#lightbox');
     const lightboxImage=document.querySelector('#lightboxImage');
     const lightboxLabel=document.querySelector('#lightboxLabel');
+    const localTools=document.querySelector('#localTools');
+    const selectModeBtn=document.querySelector('#selectModeBtn');
+    const selectedCount=document.querySelector('#selectedCount');
+    const deleteSelectedBtn=document.querySelector('#deleteSelectedBtn');
     const sourceDefaultText=focusSource.textContent;
 
     function renderCards(){
       grid.replaceChildren();
       const fragment=document.createDocumentFragment();
       items.forEach((item,index)=>{
-        const card=document.createElement('button');
+        const card=document.createElement('div');
         card.className='card'; card.dataset.category=item.category; card.dataset.index=index;
+        card.tabIndex=0;card.setAttribute('role','button');
         card.style.setProperty('--ratio',`${item.width}/${item.height}`);
         card.style.animationDelay=`${Math.min(index,18)*18}ms`;
         card.setAttribute('aria-label',`${item.categoryLabel} ${String(index+1).padStart(3,'0')} 크게 보기`);
         card.innerHTML=`<img src="${item.src}" alt="${item.categoryLabel} 웨딩 포즈 · ${item.studio}" loading="lazy" decoding="async"><span class="card-meta"><b>${item.categoryLabel}</b><i>${String(index+1).padStart(3,'0')}</i></span>`;
-        card.addEventListener('click',()=>selectItem(item)); fragment.appendChild(card);
+        if(window.__LOCAL_DEV__){
+          const mark=document.createElement('span');mark.className='select-mark';mark.textContent='✓';mark.setAttribute('aria-hidden','true');card.appendChild(mark);
+          const remove=document.createElement('button');remove.className='delete-btn';remove.type='button';remove.textContent='×';remove.title='이 사진 파일 삭제';remove.setAttribute('aria-label',`${item.categoryLabel} 사진 파일 삭제`);
+          remove.addEventListener('click',event=>{event.stopPropagation();deleteImage(item,remove)});card.appendChild(remove);
+        }
+        card.addEventListener('click',()=>state.selectionMode?toggleSelected(item,card):selectItem(item));
+        card.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();state.selectionMode?toggleSelected(item,card):selectItem(item)}});
+        fragment.appendChild(card);
       }); grid.appendChild(fragment);
+    }
+
+    function imagePath(item){return item.src.split('?')[0]}
+    function updateSelectionUi(){
+      selectedCount.textContent=`${state.selected.size}장 선택`;
+      deleteSelectedBtn.disabled=state.selected.size===0;
+    }
+    function toggleSelected(item,card){
+      const path=imagePath(item);
+      if(state.selected.has(path)){state.selected.delete(path);card.classList.remove('selected')}
+      else{state.selected.add(path);card.classList.add('selected')}
+      updateSelectionUi();
+    }
+    function setSelectionMode(enabled){
+      state.selectionMode=enabled;pane.classList.toggle('selecting',enabled);selectModeBtn.classList.toggle('active',enabled);
+      selectModeBtn.textContent=enabled?'선택 취소':'여러 장 선택';
+      if(!enabled){state.selected.clear();document.querySelectorAll('.card.selected').forEach(card=>card.classList.remove('selected'))}
+      updateSelectionUi();
+    }
+
+    async function deleteImage(item,button){
+      button.disabled=true;button.textContent='…';
+      try{
+        const response=await fetch('/__delete-image',{method:'DELETE',headers:{'Content-Type':'application/json'},body:JSON.stringify({path:imagePath(item)})});
+        if(!response.ok)throw new Error('삭제 실패');
+      }catch(error){
+        button.disabled=false;button.textContent='×';alert('사진을 삭제하지 못했습니다. 개발 서버를 다시 확인해 주세요.');
+      }
+    }
+
+    async function deleteSelectedImages(){
+      if(!state.selected.size)return;
+      deleteSelectedBtn.disabled=true;deleteSelectedBtn.textContent='삭제 중…';
+      try{
+        const response=await fetch('/__delete-image',{method:'DELETE',headers:{'Content-Type':'application/json'},body:JSON.stringify({paths:[...state.selected]})});
+        if(!response.ok)throw new Error('삭제 실패');
+      }catch(error){
+        deleteSelectedBtn.disabled=false;deleteSelectedBtn.textContent='선택 삭제';alert('선택한 사진을 삭제하지 못했습니다. 개발 서버를 다시 확인해 주세요.');
+      }
     }
 
     function selectItem(item,scrollFocus=false){
@@ -207,6 +279,7 @@
         document.querySelector('#countCouple').textContent=count('couple');
         document.querySelector('#countOutdoor').textContent=count('outdoor');
         document.querySelector('#brandCount').textContent=`Korean Wedding Studios · Curated ${items.length}`;
+        if(window.__LOCAL_DEV__)localTools.hidden=false;
         renderCards();applyFilter('all');
       }catch(error){
         const empty=document.querySelector('#empty');
@@ -219,6 +292,8 @@
     }
 
     document.querySelectorAll('.tab').forEach(tab=>tab.addEventListener('click',()=>applyFilter(tab.dataset.filter)));
+    selectModeBtn.addEventListener('click',()=>setSelectionMode(!state.selectionMode));
+    deleteSelectedBtn.addEventListener('click',deleteSelectedImages);
     document.querySelector('#prevBtn').addEventListener('click',()=>step(-1));
     document.querySelector('#nextBtn').addEventListener('click',()=>step(1));
     document.querySelector('#fullBtn').addEventListener('click',openLightbox);

@@ -47,6 +47,15 @@ export async function generateManifest() {
   return items;
 }
 
+export async function removeCatalogEntry(webPath) {
+  let catalog = {};
+  try { catalog = JSON.parse(await readFile(catalogPath, 'utf8')); } catch { return; }
+  if (Object.hasOwn(catalog, webPath)) {
+    delete catalog[webPath];
+    await writeFile(catalogPath, `${JSON.stringify(catalog, null, 2)}\n`, 'utf8');
+  }
+}
+
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const items = await generateManifest();
   console.log(`Generated images/manifest.json (${items.length} images)`);
