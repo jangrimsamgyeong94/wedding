@@ -769,20 +769,6 @@
     "studio": "OUTDOOR SELF WEDDING",
     "source": "https://www.instagram.com/explore/search/keyword/?q=%EC%95%BC%EC%99%B8%EC%9B%A8%EB%94%A9%EC%8A%A4%EB%83%85"
   },
-  "images/delete/outdoor--019.webp": {
-    "width": 480,
-    "height": 600,
-    "account": "야외웨딩스냅",
-    "studio": "OUTDOOR SELF WEDDING",
-    "source": "https://www.instagram.com/explore/search/keyword/?q=%EC%95%BC%EC%99%B8%EC%9B%A8%EB%94%A9%EC%8A%A4%EB%83%85"
-  },
-  "images/delete/outdoor--020.webp": {
-    "width": 480,
-    "height": 601,
-    "account": "야외웨딩스냅",
-    "studio": "OUTDOOR SELF WEDDING",
-    "source": "https://www.instagram.com/explore/search/keyword/?q=%EC%95%BC%EC%99%B8%EC%9B%A8%EB%94%A9%EC%8A%A4%EB%83%85"
-  },
   "images/delete/outdoor--021.webp": {
     "width": 480,
     "height": 600,
@@ -3008,5 +2994,2449 @@
     "account": "reserve_studio",
     "studio": "RESERVE STUDIO",
     "source": "https://www.instagram.com/reserve_studio/"
+  },
+  "images/delete/candidate--male--vjpalladiokothrudcentral--cae77c9b6c90.jpg": {
+    "width": 720,
+    "height": 1280,
+    "account": "핀터레스트",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://vjpalladiokothrudcentral.com/",
+    "imageSource": "https://vjpalladiokothrudcentral.com/assets/images/banner/mobile.webp",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--magicbricks-com--fc4e70319d0d.jpg": {
+    "width": 1600,
+    "height": 882,
+    "account": "핀터레스트",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://www.magicbricks.com/vj-palladio-kothrud-central-photo-videos-kothrud-pune-pdpid-4d4235343430333635",
+    "imageSource": "https://img.staticmb.com/mbimages/project/2026/02/06/Project-Photo-11-VJ-Palladio-Kothrud-Central-Pune-5440365_882_1600.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--proptiger-com--da4fea86f795.jpg": {
+    "width": 1493,
+    "height": 765,
+    "account": "핀터레스트",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://www.proptiger.com/pune/kothrud/vilas-javdekar-eco-shelters-palladio-kharadi-central-phase-2-3512748",
+    "imageSource": "https://im.proptiger.com/1/3512748/6/palladio-kharadi-central-phase-2-elevation-178888037.png",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--proptiger-com--a99faca64b30.jpg": {
+    "width": 1336,
+    "height": 679,
+    "account": "핀터레스트",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://www.proptiger.com/pune/vilas-javdekar-eco-shelters-palladio-kharadi-central-phase-2-kothrud-17874069/2bhk-2t-apartment",
+    "imageSource": "https://im.proptiger.com/1/3512748/6/palladio-kharadi-central-phase-2-elevation-176128429.jpeg?width=1336&height=768",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--housiey-com--e5251f5c92a0.jpg": {
+    "width": 1280,
+    "height": 780,
+    "account": "핀터레스트",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://housiey.com/projects/vj-palladio-central",
+    "imageSource": "https://housiey.com/_next/image?url=https:%2F%2Fresources.housiey.com%2Fadmin%2Fuploads%2Fproject_images%2Fvj-palladio-central_1769171151487-466402981.webp&w=1280&q=50",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--housiey-com--364916b0668d.jpg": {
+    "width": 1280,
+    "height": 784,
+    "account": "핀터레스트",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://housiey.com/projects/vj-palladio-central",
+    "imageSource": "https://housiey.com/_next/image?url=https:%2F%2Fresources.housiey.com%2Fadmin%2Fuploads%2Fproject_images%2Fvj-palladio-central_1769171148087-255639433.webp&w=1280&q=50",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--youtube-com--3377ce50e97f.jpg": {
+    "width": 1280,
+    "height": 720,
+    "account": "핀터레스트",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://www.youtube.com/watch?v=SExLuR6ATZY",
+    "imageSource": "https://i.ytimg.com/vi/SExLuR6ATZY/maxresdefault.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--housiey-com--cbc14a2555fe.jpg": {
+    "width": 1280,
+    "height": 933,
+    "account": "핀터레스트",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://housiey.com/projects/vj-palladio-central",
+    "imageSource": "https://housiey.com/_next/image?url=https:%2F%2Fresources.housiey.com%2Fadmin%2Fuploads%2Fproject_images%2Fvj-palladio-central_1769171166927-766378583.webp&w=1280&q=50",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--javdekars-info--1307830c9f6b.jpg": {
+    "width": 3360,
+    "height": 1890,
+    "account": "핀터레스트",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://javdekars.info/",
+    "imageSource": "https://javdekars.info/img/la/Elevation_1.webp",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--housiey-com--c764abb7405e.jpg": {
+    "width": 1280,
+    "height": 905,
+    "account": "핀터레스트",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://housiey.com/projects/vj-palladio-central",
+    "imageSource": "https://housiey.com/_next/image?url=https:%2F%2Fresources.housiey.com%2Fadmin%2Fuploads%2Fproject_images%2Fvj-palladio-central_1769171182572-725167571.webp&w=1280&q=60",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--youtube-com--83c0e090e6f1.jpg": {
+    "width": 1280,
+    "height": 720,
+    "account": "핀터레스트",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://www.youtube.com/watch?v=Z0Ej9XhQ9XM",
+    "imageSource": "https://i.ytimg.com/vi/Z0Ej9XhQ9XM/maxresdefault.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--housiey-com--dfd9a874afae.jpg": {
+    "width": 1280,
+    "height": 905,
+    "account": "핀터레스트",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://housiey.com/projects/vj-palladio-central",
+    "imageSource": "https://housiey.com/_next/image?url=https:%2F%2Fresources.housiey.com%2Fadmin%2Fuploads%2Fproject_images%2Fvj-palladio-central_1769171184530-305149155.webp&w=1280&q=60",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--vj-pbc-balewadi-com--279270a340aa.jpg": {
+    "width": 1197,
+    "height": 1597,
+    "account": "핀터레스트",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://vj-pbc-balewadi.com/",
+    "imageSource": "https://vj-pbc-balewadi.com/images/overview-img1.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--housiey-com--221939801a7e.jpg": {
+    "width": 1280,
+    "height": 905,
+    "account": "핀터레스트",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://housiey.com/projects/vj-palladio-central",
+    "imageSource": "https://housiey.com/_next/image?url=https:%2F%2Fresources.housiey.com%2Fadmin%2Fuploads%2Fproject_images%2Fvj-palladio-central_1769171193707-563468720.webp&w=1280&q=60",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--visitseattle-org--d4bd8a80c93d.jpg": {
+    "width": 1200,
+    "height": 675,
+    "account": "네이버 블로그",
+    "studio": "플리트비체 스튜디오 · male",
+    "source": "https://visitseattle.org/about-us/seattle-tourism-data/",
+    "imageSource": "https://uploads.visitseattle.org/2024/02/26114037/VS_base.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--fity-club--478b28cf2fb6.jpg": {
+    "width": 1065,
+    "height": 1320,
+    "account": "네이버 블로그",
+    "studio": "플리트비체 스튜디오 · male",
+    "source": "https://fity.club/lists/suggestions/Beautiful-Seattle/",
+    "imageSource": "https://i.pinimg.com/originals/e0/7e/3e/e07e3eaf61bccea95c3e19b74b831a94.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--touristvisitorguides-com--0ca3116bc363.jpg": {
+    "width": 2048,
+    "height": 1365,
+    "account": "네이버 블로그",
+    "studio": "플리트비체 스튜디오 · male",
+    "source": "https://touristvisitorguides.com/must-see/seattle-center-attractions",
+    "imageSource": "https://beautifulwashington.com/images/seattle/space-needle-from-kerry-park.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--utpaqp-edu-pe--01dee7c4e418.jpg": {
+    "width": 3307,
+    "height": 2205,
+    "account": "네이버 블로그",
+    "studio": "플리트비체 스튜디오 · male",
+    "source": "https://utpaqp.edu.pe/search/seattle-pixel-art/",
+    "imageSource": "http://www.travelmag.com/wp-content/uploads/2017/10/22680345663_87edff3bb7_o.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--pinterest-com--24a413c731c9.jpg": {
+    "width": 3851,
+    "height": 2686,
+    "account": "네이버 블로그",
+    "studio": "플리트비체 스튜디오 · male",
+    "source": "https://www.pinterest.com/pin/beautiful-seattle--251920172896981330/",
+    "imageSource": "https://i.pinimg.com/originals/17/72/35/1772357d3e2e749bc79ba7e11cfbbc48.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--wallpapers-com--72cd40b188cb.jpg": {
+    "width": 5283,
+    "height": 3302,
+    "account": "네이버 블로그",
+    "studio": "플리트비체 스튜디오 · male",
+    "source": "https://wallpapers.com/seattle",
+    "imageSource": "https://wallpapers.com/images/hd/space-needle-in-seattle-united-states-4vhrq17s5xj7lff1.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--wallpapersafari-com--67d59814a2b2.jpg": {
+    "width": 2880,
+    "height": 1920,
+    "account": "네이버 블로그",
+    "studio": "플리트비체 스튜디오 · male",
+    "source": "https://wallpapersafari.com/w/W9dxwu",
+    "imageSource": "https://cdn.wallpapersafari.com/86/94/W9dxwu.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--totallyseattle-com--b8ce3ba86502.jpg": {
+    "width": 2560,
+    "height": 1707,
+    "account": "네이버 블로그",
+    "studio": "플리트비체 스튜디오 · male",
+    "source": "https://totallyseattle.com/whats-the-best-time-of-the-year-to-visit-seattle/",
+    "imageSource": "https://totallyseattle.com/wp-content/uploads/2022/08/seattle-at-sunset-2021-scaled.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--goodmotherdiet-com--30e61257f00d.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "account": "네이버 블로그",
+    "studio": "플리트비체 스튜디오 · male",
+    "source": "http://goodmotherdiet.com/2014/02/25/a-whirlwind-weekend-in-seattle/",
+    "imageSource": "http://www.localtrips.com/images/seattle-trips.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--pixabay-com--6300f2df34a4.jpg": {
+    "width": 1280,
+    "height": 853,
+    "account": "네이버 블로그",
+    "studio": "플리트비체 스튜디오 · male",
+    "source": "https://pixabay.com/images/search/seattle/",
+    "imageSource": "https://cdn.pixabay.com/photo/2021/03/14/01/54/seattle-6093144_1280.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--polarmt-com--8d76c1ca4318.jpg": {
+    "width": 1024,
+    "height": 964,
+    "account": "네이버 블로그",
+    "studio": "플리트비체 스튜디오 · male",
+    "source": "https://www.polarmt.com/products/0A0C7211",
+    "imageSource": "https://st.mascus.com/image/product/large/0a0c7211/hamm-h-16-i,252bd901.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--bakheet-com-sa--792d3cb223fb.jpg": {
+    "width": 1958,
+    "height": 1466,
+    "account": "네이버 블로그",
+    "studio": "플리트비체 스튜디오 · male",
+    "source": "https://bakheet.com.sa/home/road-equipment/hamm/",
+    "imageSource": "https://bakheet.com.sa/wp-content/uploads/2018/02/hd-110-1909.png",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--massuccot-com--f77bfdf92942.jpg": {
+    "width": 1032,
+    "height": 720,
+    "account": "네이버 블로그",
+    "studio": "플리트비체 스튜디오 · male",
+    "source": "https://massuccot.com/fr/stock/hamm-hd8vv-2/",
+    "imageSource": "https://massuccot.com/wp-content/uploads/2022/03/BOMAG-H13i_01.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--fromplacetoplace-travel--82009ee465f1.jpg": {
+    "width": 1024,
+    "height": 683,
+    "account": "네이버 블로그",
+    "studio": "플리트비체 스튜디오 · male",
+    "source": "https://fromplacetoplace.travel/germany/north-rhine-westphalia/hamm/hamm-sights/",
+    "imageSource": "https://vonortzuort.reisen/wp-content/uploads/2021/09/hamm-bahnhof-1024x683.jpeg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--kr-pinterest-com--6ac58ac112e8.jpg": {
+    "width": 675,
+    "height": 1200,
+    "account": "네이버 블로그",
+    "studio": "리저브 스튜디오 · male",
+    "source": "https://kr.pinterest.com/pin/625015254573699585/",
+    "imageSource": "https://i.pinimg.com/originals/15/d7/dc/15d7dc1b3f5c918489b2e721e94f3773.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--ar-inspiredpencil-com--82328475afcd.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "account": "네이버 블로그",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://ar.inspiredpencil.com/pictures-2023/water-treatment-plant",
+    "imageSource": "https://images.interestingengineering.com/2023/07/21/image/jpeg/PSoSV8WpqtUnMpyRUt0on9nRSZND5P5K3UhNkPUv.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--enco-energy--3b626f31d916.jpg": {
+    "width": 1192,
+    "height": 1063,
+    "account": "네이버 블로그",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://www.enco.energy/portfolio/oselete-wastewater-treatment-plant-expansion-and-upgrade/",
+    "imageSource": "https://www.enco.energy/wp-content/uploads/2020/05/oselete-exp-map.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--huber-se-com--e1f9a319a2a3.jpg": {
+    "width": 1783,
+    "height": 1261,
+    "account": "네이버 블로그",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://www.huber-se.com/en-gb/applications-and-solutions/municipal-wastewater-treatment/",
+    "imageSource": "https://www.huber-se.com/fileadmin/user_upload/huber-technology/application/application-group-titles/img-application-municipal-wwtp.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--fity-club--7f128f10fda4.jpg": {
+    "width": 2560,
+    "height": 1706,
+    "account": "네이버 블로그",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://fity.club/lists/suggestions/wastewater-treatment-plant/",
+    "imageSource": "https://www.earthlink.co.in/wp-content/uploads/2024/05/aerial-view-modern-water-cleaning-facility-urban-wastewater-treatment-plant-purification-process-removing-undesirable-chemicals-suspended-solids-gases-from-contaminated-liquid-min-scaled.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--fity-club--42e23be03479.jpg": {
+    "width": 1024,
+    "height": 768,
+    "account": "네이버 블로그",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://fity.club/lists/suggestions/industrial-wastewater-treatment-plant-design/",
+    "imageSource": "https://image1.slideserve.com/2168280/wastewater-treatment-plant-design-l.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--fity-club--3e1e6f2b6a66.jpg": {
+    "width": 982,
+    "height": 716,
+    "account": "네이버 블로그",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://fity.club/lists/suggestions/wastewater-treatment-plant-structure-diagram/",
+    "imageSource": "https://cityoffreeport.org/wp-content/uploads/2023/06/Existing-with-Labels.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--fity-club--c8bd1995a5b6.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "account": "네이버 블로그",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://fity.club/lists/suggestions/wastewater-treatment-plant-structure-diagram/",
+    "imageSource": "https://irdeng.com/wp-content/uploads/2023/01/1-4-3.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--transcendinfra-com--34e22cfd6f07.jpg": {
+    "width": 1024,
+    "height": 1024,
+    "account": "네이버 블로그",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://transcendinfra.com/wastewater-treatment-plant-design-calculations/",
+    "imageSource": "https://transcendinfra.com/wp-content/uploads/2024/03/wastewater-treatment-plant-design-calculations-1-1024x1024.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--aucgroup-net--118d8ce50c67.jpg": {
+    "width": 1920,
+    "height": 1280,
+    "account": "네이버 블로그",
+    "studio": "원규 스튜디오 · male",
+    "source": "https://aucgroup.net/wastewater-treatment-systems/",
+    "imageSource": "https://aucgroup.net/wp-content/uploads/Cropped-modular-with-filter-and-grass-1.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--vecteezy-com--797bc966d6e1.jpg": {
+    "width": 1050,
+    "height": 700,
+    "account": "공식/웹",
+    "studio": "달빛스쿠터 · male",
+    "source": "https://www.vecteezy.com/free-photos/village-road-background",
+    "imageSource": "https://static.vecteezy.com/system/resources/thumbnails/027/800/709/small_2x/rural-road-in-the-countryside-of-thailand-country-road-in-the-countryside-photo.JPG",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--esportsgear-com--f18a0c5df3f1.jpg": {
+    "width": 1024,
+    "height": 1024,
+    "account": "다음",
+    "studio": "보다 스튜디오 · male",
+    "source": "https://www.esportsgear.com/products/hardin-simmons-esports-jersey",
+    "imageSource": "https://www.esportsgear.com/cdn/shop/files/HSU-Jersey-Front_1200x.png?v=1728061644",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--sportpreferred-com--02c64e92861a.jpg": {
+    "width": 819,
+    "height": 1024,
+    "account": "다음",
+    "studio": "보다 스튜디오 · male",
+    "source": "https://www.sportpreferred.com/cricket/ipl-2026-new-jerseys-team-kits-colors-designs/3932",
+    "imageSource": "https://www.sportpreferred.com/wp-content/uploads/2025/12/Sunrisers-Hyderabad-1-819x1024.webp",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--esportsgear-com--eeba558b3050.jpg": {
+    "width": 1024,
+    "height": 1024,
+    "account": "다음",
+    "studio": "보다 스튜디오 · male",
+    "source": "https://www.esportsgear.com/products/pacific-high-school-jersey",
+    "imageSource": "https://www.esportsgear.com/cdn/shop/files/Pacific-HS-Jersey-Front_1200x.png?v=1744128917",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--store-zurdox-com--1f631f1a929b.jpg": {
+    "width": 1200,
+    "height": 1200,
+    "account": "다음",
+    "studio": "보다 스튜디오 · male",
+    "source": "https://store.zurdox.com/product/custom-hockey-jerseys-8/",
+    "imageSource": "https://store.zurdox.com/wp-content/uploads/2025/04/18.png",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--esportsgear-com--e603a2325b86.jpg": {
+    "width": 1024,
+    "height": 1024,
+    "account": "다음",
+    "studio": "보다 스튜디오 · male",
+    "source": "https://www.esportsgear.com/products/duluth-high-school-jersey",
+    "imageSource": "https://www.esportsgear.com/cdn/shop/files/Duluth-Jersey-Front_1200x.png?v=1727988740",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--triple-guide--e36173f31b7e.jpg": {
+    "width": 1024,
+    "height": 683,
+    "account": "네이버 블로그",
+    "studio": "섬 스튜디오 · male",
+    "source": "https://triple.guide/articles/2df328f2-24a9-47a9-b6f6-2f77b1635701",
+    "imageSource": "https://media.triple.guide/triple-cms/c_limit,f_auto,h_1024,w_1024/71f63076-0792-446b-96bf-4a7e5f364b51.jpeg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--nhanews-com--a48dd0efb491.jpg": {
+    "width": 950,
+    "height": 712,
+    "account": "네이버 블로그",
+    "studio": "섬 스튜디오 · male",
+    "source": "https://www.nhanews.com/news/articleView.html?idxno=91940",
+    "imageSource": "https://cdn.nhanews.com/news/photo/202509/91940_33333_517.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--brunch-co-kr--41e217b8ff31.jpg": {
+    "width": 1280,
+    "height": 853,
+    "account": "네이버 블로그",
+    "studio": "섬 스튜디오 · male",
+    "source": "https://brunch.co.kr/@hotelscomkr/1318",
+    "imageSource": "https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/1jPF/image/ViT7A8byHza5J_erRXJu3sC-oWA.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--hdnews-co-kr--9fd33849ee9f.jpg": {
+    "width": 1280,
+    "height": 719,
+    "account": "네이버 블로그",
+    "studio": "섬 스튜디오 · male",
+    "source": "https://www.hdnews.co.kr/news/articleView.html?idxno=321374",
+    "imageSource": "https://cdn.hdnews.co.kr/news/photo/202506/321374_320480_5226.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--jangjaland-co-kr--7d2d6f56f911.jpg": {
+    "width": 1920,
+    "height": 1344,
+    "account": "네이버 블로그",
+    "studio": "섬 스튜디오 · male",
+    "source": "https://jangjaland.co.kr/3",
+    "imageSource": "https://cdn.imweb.me/thumbnail/20230712/08a2a6c255389.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--telltrip-com--aea406523082.jpg": {
+    "width": 1200,
+    "height": 800,
+    "account": "네이버 블로그",
+    "studio": "섬 스튜디오 · male",
+    "source": "https://www.telltrip.com/domestic-travel/우리나라에서-가장-아름다운-섬-여행지-5곳-추천/",
+    "imageSource": "https://www.telltrip.com/wp-content/uploads/2024/12/1841_10109_628.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--weekly-chosun-com--1b53518cde09.jpg": {
+    "width": 1280,
+    "height": 853,
+    "account": "네이버 블로그",
+    "studio": "섬 스튜디오 · male",
+    "source": "https://weekly.chosun.com/news/articleView.html?idxno=26504",
+    "imageSource": "https://cdn.weekly.chosun.com/news/photo/202305/26504_49742_4159.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--view-nate-com--69f82634c7bb.jpg": {
+    "width": 1200,
+    "height": 800,
+    "account": "네이버 블로그",
+    "studio": "섬 스튜디오 · male",
+    "source": "https://view.nate.com/travel/view/314955/",
+    "imageSource": "https://view-cdn.nate.com/nate-view/2025/06/19084250/CP-2024-0040-29978625-thumb.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--go-mary-com--13365d2fb89b.jpg": {
+    "width": 1280,
+    "height": 1280,
+    "account": "네이버 블로그",
+    "studio": "섬 스튜디오 · male",
+    "source": "https://go-mary.com/entry/여행-전라남도-아름다운-섬-5곳",
+    "imageSource": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FenNsjF%2FbtsMvce1D1f%2FLiuPeJ8hSvmEApdCaCrlZ0%2Fimg.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--wikitree-co-kr--c71be76af5ae.jpg": {
+    "width": 1200,
+    "height": 676,
+    "account": "네이버 블로그",
+    "studio": "섬 스튜디오 · male",
+    "source": "https://www.wikitree.co.kr/articles/1082977",
+    "imageSource": "https://cdnweb01.wikitree.co.kr/webdata/editor/202509/22/img_20250922163202_46353082.webp",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--view-nate-com--ae53f57ca9e5.jpg": {
+    "width": 1280,
+    "height": 853,
+    "account": "네이버 블로그",
+    "studio": "섬 스튜디오 · male",
+    "source": "https://view.nate.com/travel/view/271433/",
+    "imageSource": "https://contents-cdn.viewus.co.kr/image/2024/11/CP-2023-0442/image-be8db737-31f1-4ace-98b0-5b435eb9a3f5.jpeg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--jangjaland-co-kr--c85a759923fb.jpg": {
+    "width": 1280,
+    "height": 896,
+    "account": "네이버 블로그",
+    "studio": "섬 스튜디오 · male",
+    "source": "https://jangjaland.co.kr/PROLOGUE",
+    "imageSource": "https://cdn.imweb.me/thumbnail/20230711/2b4b9b14226e5.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--jangjaland-co-kr--67d9ab622480.jpg": {
+    "width": 1920,
+    "height": 1344,
+    "account": "네이버 블로그",
+    "studio": "섬 스튜디오 · male",
+    "source": "https://jangjaland.co.kr/OCEANVIEW",
+    "imageSource": "https://cdn.imweb.me/thumbnail/20230710/735b6c42d626a.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--hdnews-co-kr--40b780362c87.jpg": {
+    "width": 1280,
+    "height": 720,
+    "account": "네이버 블로그",
+    "studio": "섬 스튜디오 · male",
+    "source": "https://www.hdnews.co.kr/news/articleView.html?idxno=321374",
+    "imageSource": "https://cdn.hdnews.co.kr/news/photo/202506/321374_320482_5252.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--kor-pngtree-com--49d67628ea20.jpg": {
+    "width": 1200,
+    "height": 673,
+    "account": "네이버 블로그",
+    "studio": "섬 스튜디오 · male",
+    "source": "https://kor.pngtree.com/freebackground/beautiful-island-with-clouds-and-water-that-is-blue_2697111.html",
+    "imageSource": "https://png.pngtree.com/background/20230522/original/pngtree-beautiful-island-with-clouds-and-water-that-is-blue-picture-image_2697111.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--male--travie-com--5015b7ac0627.jpg": {
+    "width": 1280,
+    "height": 854,
+    "account": "네이버 블로그",
+    "studio": "섬 스튜디오 · male",
+    "source": "https://www.travie.com/news/articleView.html?idxno=52256",
+    "imageSource": "https://cdn.travie.com/news/photo/202403/52256_32120_1418.jpg",
+    "categoryHint": "male"
+  },
+  "images/delete/candidate--female--twiman-net--a5542347a990.jpg": {
+    "width": 848,
+    "height": 1200,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://twiman.net/user/1366133586345160707/1367350038154727426",
+    "imageSource": "https://pbs.twimg.com/media/EvnNnCdVEAEStlU.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--twiman-net--99ddda4bb767.jpg": {
+    "width": 1000,
+    "height": 975,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://twiman.net/user/841115591486275584/1688906967702786048",
+    "imageSource": "https://pbs.twimg.com/media/F3qCCXbWUAIEmcn.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--twiman-net--4c4eaa900c56.jpg": {
+    "width": 848,
+    "height": 1200,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://twiman.net/user/1183600619493285889/1632713560680960000",
+    "imageSource": "https://pbs.twimg.com/media/FvhiCtoaEAAnoZF.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--twiman-net--063ee256c790.jpg": {
+    "width": 900,
+    "height": 1200,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://twiman.net/user/1327783316330741761/1718218551352537284",
+    "imageSource": "https://pbs.twimg.com/media/F-FWj7Ya4AAsQ7u.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--twiman-net--8a9e918e6e58.jpg": {
+    "width": 863,
+    "height": 1200,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://twiman.net/user/1287607699568435200/1612716374299938816",
+    "imageSource": "https://pbs.twimg.com/media/FyOMl4kaMAEtXyN.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--twiman-net--e04d7b6ea0be.jpg": {
+    "width": 723,
+    "height": 1024,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://twiman.net/user/1409475949150707714/1438454112211722242",
+    "imageSource": "https://pbs.twimg.com/media/FBFlNkQVQAEO0fc.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--twiman-net--71c33462b764.jpg": {
+    "width": 900,
+    "height": 1200,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://twiman.net/user/1327783316330741761/1677628341950595073",
+    "imageSource": "https://pbs.twimg.com/media/F0gUVBpaQAA-_a3.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--twiman-net--4dff2e65f650.jpg": {
+    "width": 900,
+    "height": 1200,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://twiman.net/user/1591442117959700480/1991828355839385737",
+    "imageSource": "https://pbs.twimg.com/media/G7AfzmCasAAxFsF.png",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--twiman-net--51fc746de56b.jpg": {
+    "width": 900,
+    "height": 1200,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://twiman.net/user/1366133586345160707/1367350038154727426",
+    "imageSource": "https://pbs.twimg.com/media/Ewd4tbZUYAIXtvy.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--twiman-net--e6c89c018360.jpg": {
+    "width": 850,
+    "height": 1200,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://twiman.net/user/1251546889993850881/1505488578087821315",
+    "imageSource": "https://pbs.twimg.com/media/FPaWZvzVcAUjQBj.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--twiman-net--5e56b5bc9ae5.jpg": {
+    "width": 900,
+    "height": 1200,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://twiman.net/user/1327783316330741761/1593909950497136640",
+    "imageSource": "https://pbs.twimg.com/media/FjClyqFaYAAL7PH.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--twoucan-com--ea9b8d2d435a.jpg": {
+    "width": 814,
+    "height": 1200,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://twoucan.com/profile/warab134",
+    "imageSource": "https://pbs.twimg.com/media/FJIsh6kaIAc_h7v.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--twiman-net--627ba1962cba.jpg": {
+    "width": 820,
+    "height": 1200,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://twiman.net/user/1392682718991851522/1757362475828433081",
+    "imageSource": "https://pbs.twimg.com/media/GGNn2cTaMAAuzKM.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--twiman-net--6ab8ee46deab.jpg": {
+    "width": 899,
+    "height": 1200,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://twiman.net/user/233902148/1389125534903246850",
+    "imageSource": "https://pbs.twimg.com/media/E0cqT8TVUAAq0cB.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--twiman-net--96330dd710b5.jpg": {
+    "width": 842,
+    "height": 1200,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://twiman.net/user/1379782001960488962/1700918086524952871",
+    "imageSource": "https://pbs.twimg.com/media/GDUa3GeaUAACD4E.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--twiman-net--498067151a44.jpg": {
+    "width": 804,
+    "height": 1200,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://twiman.net/user/1297499712837173250/1355474963323514882",
+    "imageSource": "https://pbs.twimg.com/media/Eu6AayRUYAQPTJe.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--twiman-net--5c3b51e1f4f0.jpg": {
+    "width": 848,
+    "height": 1200,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://twiman.net/user/1308337555608227840/1688895716499079168",
+    "imageSource": "https://pbs.twimg.com/media/F4ybRgQXYAEBOr3.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--twiman-net--f4a98c7d6d45.jpg": {
+    "width": 846,
+    "height": 1200,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://twiman.net/user/894252651889565697/1677246597586116609",
+    "imageSource": "https://pbs.twimg.com/media/F0bFV5caIAIHRzr.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--eddiessolitude-blogspot---c6579901c38d.jpg": {
+    "width": 1280,
+    "height": 1024,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://eddiessolitude.blogspot.com/2012/06/pink-flower-wallpaper.html",
+    "imageSource": "https://3.bp.blogspot.com/-d8jMCqN-SHo/TscTLwni3CI/AAAAAAAAAu0/0oN5iWyQKYY/s1600/pink-flower-4-723539.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--pexels-com--20e3897928b9.jpg": {
+    "width": 5706,
+    "height": 3203,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://www.pexels.com/search/flower 300 dpi/",
+    "imageSource": "https://images.pexels.com/photos/14960246/pexels-photo-14960246.jpeg?cs=srgb&dl=pexels-less-rock-14960246.jpg&fm=jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--pexels-com--33b6bc9ebf95.jpg": {
+    "width": 1886,
+    "height": 2829,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://www.pexels.com/search/flower garden background/",
+    "imageSource": "https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?cs=srgb&dl=pexels-jonaskakaroto-736230.jpg&fm=jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--aestheticarena-com--1776bf461bc9.jpg": {
+    "width": 2800,
+    "height": 2100,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://aestheticarena.com/single-flower-desktop-wallpaper-hd/2/",
+    "imageSource": "https://cdn.wallpapersafari.com/98/9/Y3f8uF.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--wallpapercave-com--0eed5a92f62d.jpg": {
+    "width": 1000,
+    "height": 1496,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://wallpapercave.com/daisy-flowers-wallpapers",
+    "imageSource": "https://wallpapercave.com/wp/wp11465138.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--wallpapersafari-com--83bc381cd272.jpg": {
+    "width": 5184,
+    "height": 3456,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "http://wallpapersafari.com/pink-spring-flower-wallpaper/",
+    "imageSource": "https://cdn.wallpapersafari.com/26/63/BVhDvJ.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--geocities-ws--d46c595c5deb.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://www.geocities.ws/wallpaper/flower-nature-wallpaper-desktop-hd.html",
+    "imageSource": "https://getwallpapers.com/wallpaper/full/c/8/0/1076326-download-nature-flower-wallpaper-1920x1080-hd.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--wallpapers-com--6243a56b8c6e.jpg": {
+    "width": 4000,
+    "height": 4000,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://wallpapers.com/wallpapers/beautiful-flower-arrangement-hbxmfqe8v6qvzdmy.html",
+    "imageSource": "https://wallpapers.com/images/hd/beautiful-flower-arrangement-hbxmfqe8v6qvzdmy.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--wallpapersafari-com--726d6fd7e273.jpg": {
+    "width": 2880,
+    "height": 1800,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://wallpapersafari.com/w/wpoifN",
+    "imageSource": "https://cdn.wallpapersafari.com/70/73/wpoifN.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--pinterest-com--5714a8783ef2.jpg": {
+    "width": 1600,
+    "height": 1038,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://www.pinterest.com/pin/beautiful-hd-flower-wallpaper-read-full-article-httpwebneelcomwallpaper--391179917629485948/",
+    "imageSource": "https://i.pinimg.com/originals/0c/50/6b/0c506bc28f4a375210fd1aa569dfb832.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--foliagefriend-com--716257bdca93.jpg": {
+    "width": 1024,
+    "height": 683,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://foliagefriend.com/flowers-that-represent-fear/",
+    "imageSource": "https://foliagefriend.com/wp-content/uploads/2023/05/Yellow-Tulip-Flowers-1024x683.jpeg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--wall-alphacoders-com--9eaae3d60635.jpg": {
+    "width": 3840,
+    "height": 2160,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://wall.alphacoders.com/big.php?i=942529",
+    "imageSource": "https://images3.alphacoders.com/942/942529.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--zoomsociedad-blogspot-co--5b2b0f95b44e.jpg": {
+    "width": 2048,
+    "height": 1536,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://zoomsociedad.blogspot.com/2023/07/the-best-flowers-to-plant-in-spring.html",
+    "imageSource": "https://s-media-cache-ak0.pinimg.com/originals/31/26/a9/3126a91cf882674a82bea003b5b81dc2.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--pexels-com--3ce69979fe4d.jpg": {
+    "width": 3000,
+    "height": 1904,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://www.pexels.com/search/flower garden/",
+    "imageSource": "https://images.pexels.com/photos/80453/poppy-field-of-poppies-flower-flowers-80453.jpeg?cs=srgb&dl=pexels-pixabay-80453.jpg&fm=jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--wallpapers-com--6669f4c02119.jpg": {
+    "width": 2048,
+    "height": 1387,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://wallpapers.com/flowers-aesthetic",
+    "imageSource": "https://wallpapers.com/images/hd/geranium-purple-flowers-at-garden-mg0hd86jhqf3cely.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--narodnatribuna-info--7d8a03b00d19.jpg": {
+    "width": 1920,
+    "height": 1200,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://narodnatribuna.info/lists/p/purple-cosmos-flower-wallpapers-hd-wallpapers-id-12388/",
+    "imageSource": "https://images2.alphacoders.com/101/thumb-1920-1016996.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--in-pinterest-com--d9e77f39b24d.jpg": {
+    "width": 736,
+    "height": 1308,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://in.pinterest.com/pin/beautiful-flower--824158800573989121/",
+    "imageSource": "https://i.pinimg.com/736x/0e/89/37/0e8937e6a2aa4d547fc62d5aa218d1dd.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--vecteezy-com--2fc0c354ae6a.jpg": {
+    "width": 1400,
+    "height": 700,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://www.vecteezy.com/free-png/transparent-flowers",
+    "imageSource": "https://static.vecteezy.com/system/resources/thumbnails/049/106/532/small_2x/colorful-flowers-with-transparent-background-blooming-a-symphony-of-spring-hues-png.png",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--storage-googleapis-com--90110685db96.jpg": {
+    "width": 2683,
+    "height": 2760,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://storage.googleapis.com/daxfazbamcnpce/pink-flower-arrangement.html",
+    "imageSource": "https://i.pinimg.com/originals/ee/34/a3/ee34a32cc9df2541e71f53c0456e246b.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--foliagefriend-com--485df2ee3c04.jpg": {
+    "width": 1024,
+    "height": 683,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://foliagefriend.com/flowers-that-represent-pain/",
+    "imageSource": "https://foliagefriend.com/wp-content/uploads/2023/05/Yellow-Stargazer-Flowers-1024x683.jpeg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--boota-pk--5c9743d5270a.jpg": {
+    "width": 1600,
+    "height": 1288,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://boota.pk/product/majestic-flower/",
+    "imageSource": "https://boota.pk/wp-content/uploads/2024/12/Majestic-Flower-scaled.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--wallpaperbat-com--22f8d9e85a25.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://wallpaperbat.com/windows-flower-wallpapers",
+    "imageSource": "https://wallpaperbat.com/img/32636578-wallpaper-windows-flowers-purple.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--pinterest-com--fddc3ca800c8.jpg": {
+    "width": 1920,
+    "height": 1280,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://www.pinterest.com/pin/how-to-plant-grow-and-care-for-daisy-flowers-in-2022--86131411614738206/",
+    "imageSource": "https://i.pinimg.com/originals/4d/e5/98/4de598cf93fd8c2840fef5994215a1a4.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--atozdecor-blogspot-com--126d41dfce17.jpg": {
+    "width": 1920,
+    "height": 1200,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://atozdecor.blogspot.com/2023/03/flowers-pink-flowers-wallpaper-flower.html",
+    "imageSource": "https://www.pixelstalk.net/wp-content/uploads/2016/05/Beautiful-rose-flower-wallpaper-mobile.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--vecteezy-com--177729430173.jpg": {
+    "width": 1920,
+    "height": 1920,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://www.vecteezy.com/png/48112620-one-flower-isolated-on-transparent-background-without-background",
+    "imageSource": "https://static.vecteezy.com/system/resources/previews/048/112/620/original/one-flower-isolated-on-transparent-background-without-background-png.png",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--ar-inspiredpencil-com--1cd23c76667e.jpg": {
+    "width": 1600,
+    "height": 1063,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://ar.inspiredpencil.com/pictures-2023/passion-flower",
+    "imageSource": "https://cdn.britannica.com/35/215335-050-61580CCB/close-up-blue-passionflower-Passiflora-caerulea.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--bestflowersite-co--cc3e7b52ac2a.jpg": {
+    "width": 1724,
+    "height": 1188,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · female",
+    "source": "https://bestflowersite.co/what-is-the-most-common-flower-in-world/",
+    "imageSource": "https://www.datocms-assets.com/32926/1617030738-gerbera-2-ok.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--shopee-vn--4e4bbbf3a995.jpg": {
+    "width": 1024,
+    "height": 1024,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · female",
+    "source": "https://shopee.vn/Muối-Chấm-Trái-Cây-Muối-Ớt-Tôm-Tây-Ninh-Minh-Hải-Thơm-Ngon-Hủ-250g-i.29848865.41118551672",
+    "imageSource": "https://down-vn.img.susercontent.com/file/vn-11134207-820l4-meigqg42j9c68a",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--fity-club--9fc890239276.jpg": {
+    "width": 2736,
+    "height": 1744,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · female",
+    "source": "https://fity.club/lists/a/abstract-class-in-java-java-tutorial/",
+    "imageSource": "http://www.btechsmartclass.com/java/java_images/java-abstract-class-example.png",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--officestag-com--3ded764b03a8.jpg": {
+    "width": 1500,
+    "height": 1500,
+    "account": "네이버 블로그",
+    "studio": "소공원 스튜디오 · female",
+    "source": "https://www.officestag.com/products/duracell-ultra-alkaline-battery-cell-aaa-pack-of-8",
+    "imageSource": "https://cdn.shopaccino.com/office-stag/products/71amzuthhplsl1500-4423678736395766l-4942131185341008_l.jpg?v=565?param=1",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--indiamart-com--c8088a981024.jpg": {
+    "width": 1000,
+    "height": 1000,
+    "account": "네이버 블로그",
+    "studio": "소공원 스튜디오 · female",
+    "source": "https://www.indiamart.com/proddetail/duracell-aaa-8-size-alkaline-batteries-25887497230.html",
+    "imageSource": "https://5.imimg.com/data5/SELLER/Default/2025/6/521973883/XQ/DB/JI/31964010/whatsapp-image-2025-06-25-at-5-52-43-pm-1-1000x1000.jpeg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--umall-com-au--0a6d5734dd29.jpg": {
+    "width": 1000,
+    "height": 1000,
+    "account": "네이버 블로그",
+    "studio": "소공원 스튜디오 · female",
+    "source": "https://www.umall.com.au/products/duracell-ultra-aaa-alkaline-batteries-1-5v-pack-of-8",
+    "imageSource": "http://www.umall.com.au/cdn/shop/files/1_4c469ff4-a36a-4bb8-b1b7-d6d29fdabc79.jpg?v=1773390704",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--ramsplaza-com-au--5cd188a2efb7.jpg": {
+    "width": 1200,
+    "height": 1200,
+    "account": "네이버 블로그",
+    "studio": "소공원 스튜디오 · female",
+    "source": "https://ramsplaza.com.au/products/duracell-aaa-batteries-ultra-1-5v-alkaline-batteries-longest-lasting-20-pack",
+    "imageSource": "https://ramsplaza.com.au/cdn/shop/files/10_d58b8054-a713-4a26-839e-b683caef1a8b.jpg?v=1770543059&width=1445",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--aajjo-com--93da2bcad9db.jpg": {
+    "width": 850,
+    "height": 850,
+    "account": "네이버 블로그",
+    "studio": "소공원 스튜디오 · female",
+    "source": "https://www.aajjo.com/product/duracell-ultra-alkaline-aaa-battery-in-thane-shiv-enterprises",
+    "imageSource": "https://d91ztqmtx7u1k.cloudfront.net/ClientContent/Images/ExtraLarge/duracell-ultra-alkaline-aaa-ba-20260318164710012.webp",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--bbfoodservice-co-uk--adf8fd9e9bee.jpg": {
+    "width": 1000,
+    "height": 1000,
+    "account": "네이버 블로그",
+    "studio": "소공원 스튜디오 · female",
+    "source": "https://www.bbfoodservice.co.uk/product/827322-10",
+    "imageSource": "https://www.bestwaywholesale.co.uk/img/products/1000/5/5000394176645.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--people-synapse-redaktion--934e2ffbb95e.jpg": {
+    "width": 2500,
+    "height": 2500,
+    "account": "네이버 블로그",
+    "studio": "소공원 스튜디오 · female",
+    "source": "https://people.synapse-redaktion.de/duracell-batterie-duracell/",
+    "imageSource": "https://www.bhphotovideo.com/images/images2500x2500/duracell_mn15004_duracell_1_5v_aa_coppertop_1237787.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--duracell-me-com--09d26ad6b9a0.jpg": {
+    "width": 1000,
+    "height": 1000,
+    "account": "네이버 블로그",
+    "studio": "소공원 스튜디오 · female",
+    "source": "https://www.duracell-me.com/product/alkaline-aaa-batteries/",
+    "imageSource": "https://www.duracell-me.com/upload/sites/23/2016/07/Web-PI-Alkaline_Packshot_ANZ_SEA_ME_CB_AAA_8_BL_5000394121560_5015623_FOP.png",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--ebay-com--b84e1b946f2a.jpg": {
+    "width": 1600,
+    "height": 1600,
+    "account": "네이버 블로그",
+    "studio": "소공원 스튜디오 · female",
+    "source": "https://www.ebay.com/itm/273809179291",
+    "imageSource": "https://d3d71ba2asa5oz.cloudfront.net/73001044/images/mx2500-bp2new.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--dir-indiamart-com--f0f357e2c156.jpg": {
+    "width": 1000,
+    "height": 1000,
+    "account": "네이버 블로그",
+    "studio": "소공원 스튜디오 · female",
+    "source": "https://dir.indiamart.com/impcat/aaa-alkaline-battery.html",
+    "imageSource": "https://5.imimg.com/data5/SELLER/Default/2023/3/295434637/LW/ET/NZ/13692780/duracell-aaa-alkaline-battery-1000x1000.png",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--walmart-com--e9316838c9f7.jpg": {
+    "width": 1000,
+    "height": 1000,
+    "account": "네이버 블로그",
+    "studio": "소공원 스튜디오 · female",
+    "source": "https://www.walmart.com/ip/Duracell-AAA-1-5V-Coppertop-1-5V-Alkaline-Batteries-20-Pack/5575206360",
+    "imageSource": "https://i5.walmartimages.com/seo/Duracell-AAA-1-5V-Coppertop-1-5V-Alkaline-Batteries-20-Pack_761ed41e-3ed7-4ddc-ad33-f273b32f38a4.d289e8fc740d4109e0894739d60ad5c6.jpeg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--naheed-pk--3e58c1a4c5ff.jpg": {
+    "width": 1000,
+    "height": 1000,
+    "account": "네이버 블로그",
+    "studio": "소공원 스튜디오 · female",
+    "source": "https://www.naheed.pk/duracell-everyday-alkaline-battery-aaa-4s",
+    "imageSource": "https://media.naheed.pk/catalog/product/cache/2f2d0cb0c5f92580479e8350be94f387/1/3/1343978-1.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--mercurytraders-in--74a23ccee7ee.jpg": {
+    "width": 901,
+    "height": 1000,
+    "account": "네이버 블로그",
+    "studio": "소공원 스튜디오 · female",
+    "source": "https://www.mercurytraders.in/duracell-batteries.html",
+    "imageSource": "http://5.imimg.com/data5/SELLER/Default/2022/11/RR/JU/VV/3723542/duracell-aaa-ultra-alkaline-battery-1000x1000.jpeg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--amazon-co-uk--ea9d8ae24acf.jpg": {
+    "width": 1907,
+    "height": 1407,
+    "account": "네이버 블로그",
+    "studio": "소공원 스튜디오 · female",
+    "source": "https://www.amazon.co.uk/Duracell-Ultra-Power-Alkaline-Batteries-Black/dp/B004BQXSXK",
+    "imageSource": "https://m.media-amazon.com/images/I/71Jr5Q-1oCL._AC_.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--storage-googleapis-com--0c3aedace717.jpg": {
+    "width": 1000,
+    "height": 965,
+    "account": "공식/웹",
+    "studio": "원규 스튜디오 · female",
+    "source": "https://storage.googleapis.com/duhbshoarmsbee/cheerleader-vintage-costume.html",
+    "imageSource": "https://flashbak.com/wp-content/uploads/2017/08/vintage-cheerleaders-21-1.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--storage-googleapis-com--6ac1d0992feb.jpg": {
+    "width": 1000,
+    "height": 1446,
+    "account": "공식/웹",
+    "studio": "원규 스튜디오 · female",
+    "source": "https://storage.googleapis.com/duhbshoarmsbee/cheerleader-vintage-costume.html",
+    "imageSource": "https://flashbak.com/wp-content/uploads/2017/08/vintage-cheerleaders-14.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--pinterest-com--33abf8346867.jpg": {
+    "width": 2392,
+    "height": 2531,
+    "account": "공식/웹",
+    "studio": "원규 스튜디오 · female",
+    "source": "https://www.pinterest.com/pin/totally-remember-this-cheer-catalog-and-wanting-the-triple-lined-saddle-shoes--87327680248100635/",
+    "imageSource": "https://i.pinimg.com/originals/4b/9a/70/4b9a70f2e4164140dc89148cda52ce5b.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--storage-googleapis-com--076165566be3.jpg": {
+    "width": 762,
+    "height": 1000,
+    "account": "공식/웹",
+    "studio": "원규 스튜디오 · female",
+    "source": "https://storage.googleapis.com/duhbshoarmsbee/cheerleader-vintage-costume.html",
+    "imageSource": "http://3.bp.blogspot.com/-P_ZOQTRVPf0/T6q-5LPzaMI/AAAAAAAAE9E/u9WZ3KCBh3E/s1600/colorifics4.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--storage-googleapis-com--d4e30ce12df8.jpg": {
+    "width": 2446,
+    "height": 2000,
+    "account": "공식/웹",
+    "studio": "원규 스튜디오 · female",
+    "source": "https://storage.googleapis.com/drxubxpnhsntae/cheer-uniform-history.html",
+    "imageSource": "https://i.pinimg.com/originals/b6/be/09/b6be09f758eb0171ce6a45887c947c00.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--hellomagazine-com--0ea85508c543.jpg": {
+    "width": 693,
+    "height": 1023,
+    "account": "공식/웹",
+    "studio": "원규 스튜디오 · female",
+    "source": "https://www.hellomagazine.com/hfm/culture/701499/dallas-cowboys-cheerleaders-history-costume/",
+    "imageSource": "https://images.hellomagazine.com/horizon/original_aspect_ratio/285ba95b5311-gettyimages-1177979079.jpg?tx=c_limit",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--pinterest-com--f8bc1e1113b2.jpg": {
+    "width": 975,
+    "height": 1024,
+    "account": "공식/웹",
+    "studio": "원규 스튜디오 · female",
+    "source": "https://www.pinterest.com/tysoniag/cheer/",
+    "imageSource": "https://i.pinimg.com/originals/b2/60/73/b260735b2f8c98a91d03e3c7d536e5e5.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--pinterest-com--e82f7e614e43.jpg": {
+    "width": 887,
+    "height": 1330,
+    "account": "공식/웹",
+    "studio": "원규 스튜디오 · female",
+    "source": "https://www.pinterest.com/pin/211174969245012/",
+    "imageSource": "https://i.pinimg.com/originals/40/ad/ac/40adac358691f5203752a42d68e7ea0e.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--flashbak-com--e2c40cabb7c2.jpg": {
+    "width": 1432,
+    "height": 1000,
+    "account": "공식/웹",
+    "studio": "원규 스튜디오 · female",
+    "source": "https://flashbak.com/gimme-an-r-for-retro-35-vintage-photos-of-high-school-cheerleaders-1970s-1980s-384194/",
+    "imageSource": "https://flashbak.com/wp-content/uploads/2017/08/vintage-cheerleaders-3.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--worthpoint-com--0a215bae5c8b.jpg": {
+    "width": 1493,
+    "height": 980,
+    "account": "공식/웹",
+    "studio": "원규 스튜디오 · female",
+    "source": "https://www.worthpoint.com/worthopedia/1980s-cute-cheerleader-girl-uniform-4629757666",
+    "imageSource": "https://thumbs.worthpoint.com/zoom/images1/1/0423/13/1980s-cute-cheerleader-girl-uniform_1_c01a6369a3d1ff690c9bc940a9d4ad5a.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--pinterest-com--93a6b87b1283.jpg": {
+    "width": 3000,
+    "height": 2373,
+    "account": "공식/웹",
+    "studio": "원규 스튜디오 · female",
+    "source": "https://www.pinterest.com/pin/48-vintage-cheerleading-photos-in-honor-of-super-bowl-xlviii--257549672416275100/",
+    "imageSource": "https://i.pinimg.com/originals/f7/1c/0e/f71c0e4c6ab5a50a8cc8946217d8ce9b.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--storage-googleapis-com--be183bf3a9da.jpg": {
+    "width": 1024,
+    "height": 697,
+    "account": "공식/웹",
+    "studio": "원규 스튜디오 · female",
+    "source": "https://storage.googleapis.com/dsvhvaxlmrkege/cheerleader-uniforms-1960s.html",
+    "imageSource": "https://i.pinimg.com/originals/9b/4c/4c/9b4c4c987e5b0757417d00a3223842a6.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--pinterest-com--1a5bb85fd4e0.jpg": {
+    "width": 736,
+    "height": 954,
+    "account": "공식/웹",
+    "studio": "원규 스튜디오 · female",
+    "source": "https://www.pinterest.com/pin/vintage-goodness-a-blog-for-all-the-vintage-geeks-vintage-80s-band-cheerleading-uniforms--183029172332256782/",
+    "imageSource": "https://i.pinimg.com/736x/e2/1c/6c/e21c6cb7f2306d95267b245d8bb076d8.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--pinterest-com--5b9acab447b1.jpg": {
+    "width": 1536,
+    "height": 2304,
+    "account": "공식/웹",
+    "studio": "원규 스튜디오 · female",
+    "source": "https://www.pinterest.com/pin/burlesque-ideas--561050066102389826/",
+    "imageSource": "https://i.pinimg.com/originals/52/b9/3f/52b93fe4339385dcc8870d76f22d5672.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--topstarnews-net--787d07743f89.jpg": {
+    "width": 1200,
+    "height": 1920,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · female",
+    "source": "https://www.topstarnews.net/news/articleView.html?idxno=15637394",
+    "imageSource": "https://cdn.topstarnews.net/news/photo/202504/15637394_1542521_618.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--enews-imbc-com--9fd0d00ab24b.jpg": {
+    "width": 800,
+    "height": 1120,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · female",
+    "source": "https://enews.imbc.com/News/RetrieveNewsInfo/474814",
+    "imageSource": "https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2025/09/02/d24ef119-1195-42bb-84e8-e948b4a1dd24.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--id-pinterest-com--7ba9a066dde1.jpg": {
+    "width": 1224,
+    "height": 1632,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · female",
+    "source": "https://id.pinterest.com/pin/153826143518269778/",
+    "imageSource": "https://i.pinimg.com/originals/e5/96/64/e59664c97b7de4c247f0a2ed00d70f2f.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--theqoo-net--a615b71a65c2.jpg": {
+    "width": 2730,
+    "height": 4096,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · female",
+    "source": "https://theqoo.net/square/3106291922",
+    "imageSource": "https://pbs.twimg.com/media/GGTlM7bacAAcZXT?format=jpg&name=4096x4096",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--female--sports-donga-com--c13e01bcc0fc.jpg": {
+    "width": 1200,
+    "height": 1871,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · female",
+    "source": "https://sports.donga.com/ent/article/all/20240304/123804264/1",
+    "imageSource": "https://dimg.donga.com/wps/SPORTS/IMAGE/2024/03/04/123803639.3.jpg",
+    "categoryHint": "female"
+  },
+  "images/delete/candidate--couple--bullsbrook-college-wa-ed--e0e10830b975.jpg": {
+    "width": 961,
+    "height": 1081,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · couple",
+    "source": "https://bullsbrook-college.wa.edu.au/term-planner/",
+    "imageSource": "https://bullsbrook-college.wa.edu.au/wp-content/uploads/2024/05/term-2-.png",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--scribd-com--7b52342542d4.jpg": {
+    "width": 768,
+    "height": 1024,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · couple",
+    "source": "https://www.scribd.com/document/981941173/Term-2-Academic-Calendar-2026",
+    "imageSource": "https://imgv2-2-f.scribdassets.com/img/document/981941173/original/df63489dd5/1?v=1",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--eastbentleighps-vic-edu---69a6c8992002.jpg": {
+    "width": 1344,
+    "height": 660,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · couple",
+    "source": "https://www.eastbentleighps.vic.edu.au/enews/details/10",
+    "imageSource": "https://www.eastbentleighps.vic.edu.au/uploaded_files/media/term_2_9_to_11.png",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--howickpreprimary-co-za--729bced9c5e7.jpg": {
+    "width": 1754,
+    "height": 1240,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · couple",
+    "source": "https://howickpreprimary.co.za/enrolment/",
+    "imageSource": "https://howickpreprimary.co.za/wp-content/uploads/2023/04/Calendar-Term-2-1.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--scribd-com--31dd6ca76d06.jpg": {
+    "width": 768,
+    "height": 1024,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · couple",
+    "source": "https://www.scribd.com/document/852677215/TERM-2-CALENDAR-OF-ACTIVITIES-2025-Edited",
+    "imageSource": "https://imgv2-2-f.scribdassets.com/img/document/852677215/original/a641f66fa7/1?v=1",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--isb-edu-bn--b09f73b8612b.jpg": {
+    "width": 768,
+    "height": 937,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · couple",
+    "source": "https://www.isb.edu.bn/about-us/term-dates/",
+    "imageSource": "https://www.isb.edu.bn/wp-content/uploads/2024/11/School-Calendar-2526-768x937.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--pallarass-eq-edu-au--e5b950e516f2.jpg": {
+    "width": 1654,
+    "height": 2339,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · couple",
+    "source": "https://pallarass.eq.edu.au/calendar-and-news/news/2023-term-2-calendar",
+    "imageSource": "https://pallarass.eq.edu.au/CalendarAndNews/News/PublishingImages/calendar-and-news/news/2023-term-2-calendar/Pallara SS Term 2 Community Calendar 2023 V2.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--childandparentcentres-wa--411d537b7810.jpg": {
+    "width": 2000,
+    "height": 1414,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · couple",
+    "source": "https://childandparentcentres.wa.edu.au/gosnells/home/cpc-g-term-2-calendar-2024-inside/",
+    "imageSource": "https://childandparentcentres.wa.edu.au/gosnells/wp-content/uploads/sites/13/CPC-G-Term-2-Calendar-2024-Inside.png",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--careereducation-s3-amazo--4084cc0e072f.jpg": {
+    "width": 1080,
+    "height": 845,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · couple",
+    "source": "https://careereducation.s3.amazonaws.com/articles/term-dates-education-leeds.html",
+    "imageSource": "https://www.jitimu.com/wp-jtech/wp-content/uploads/2023/10/2024-academic-calendar.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--gauteng-news--1bec3ea77994.jpg": {
+    "width": 1200,
+    "height": 675,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · couple",
+    "source": "https://gauteng.news/2025-school-calendar-dates-subjects/",
+    "imageSource": "https://gauteng.news/wp-content/uploads/2025/01/2025-1.png",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--cobar-nsw-gov-au--ede37829852f.jpg": {
+    "width": 999,
+    "height": 1404,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · couple",
+    "source": "https://www.cobar.nsw.gov.au/event/nsw-school-holidays-western-division-autumn/",
+    "imageSource": "https://www.cobar.nsw.gov.au/wp-content/uploads/2025/01/school-holidays.png",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--etsy-com--61186883806e.jpg": {
+    "width": 1080,
+    "height": 810,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · couple",
+    "source": "https://www.etsy.com/listing/4382609004/2026-south-australia-school-calendar",
+    "imageSource": "https://i.etsystatic.com/34228652/r/il/a9bd4e/7263548246/il_1080xN.7263548246_nnl6.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--dxp-westerncape-gov-za--fb76b2b31277.jpg": {
+    "width": 1697,
+    "height": 1100,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · couple",
+    "source": "https://dxp.westerncape.gov.za/education/school-calendar",
+    "imageSource": "https://staprodmtpdxpzan.blob.core.windows.net/dxp/2025-05/web-2026-school-terms.png",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--scribd-com--277de5807a8a.jpg": {
+    "width": 768,
+    "height": 1024,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · couple",
+    "source": "https://www.scribd.com/document/775326715/Term-2-Calendar-2024",
+    "imageSource": "https://imgv2-1-f.scribdassets.com/img/document/775326715/original/7c2dc9c222/1?v=1",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--happydaysschoolng-com--c75e26fd01e6.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · couple",
+    "source": "https://happydaysschoolng.com/tag/term-dates/",
+    "imageSource": "https://happydaysschoolng.com/wp-content/uploads/2025/01/2024-School-Calendar-in-Dark-Cyan-and-White-Lined-Drawing-Style.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--etsy-com--409e318f0a3d.jpg": {
+    "width": 1080,
+    "height": 1080,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · couple",
+    "source": "https://www.etsy.com/listing/1794425660/2025-wa-school-calendar-term-by-term",
+    "imageSource": "https://i.etsystatic.com/34228652/r/il/6658d7/6390670965/il_1080xN.6390670965_jtxn.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--the-star-co-ke--bdccf32f627b.jpg": {
+    "width": 1280,
+    "height": 1280,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · couple",
+    "source": "https://www.the-star.co.ke/news/infographics/2025-04-28-school-calender-for-2nd-term-and-3rd-term",
+    "imageSource": "https://cdn.radioafrica.digital/image/2025/04/068c0c4c-3f98-40eb-9dd1-b693f24d5696.jpeg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--msn-com--5b2399fa03d3.jpg": {
+    "width": 768,
+    "height": 964,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · couple",
+    "source": "https://www.msn.com/en-za/lifestyle/other/school-calendar-2026-all-the-term-dates-and-holidays/ar-AA1TBP2j",
+    "imageSource": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1TBTPV.img?w=768&h=964&m=6",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--tools-couchsurfing-com--7a128b7c6e0e.jpg": {
+    "width": 2579,
+    "height": 3182,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · couple",
+    "source": "https://tools.couchsurfing.com/spartanburg-district-2-calendar/zweijahreskalender-2026-und-2027-als-pdf-vorlagen-zum-ausdrucken",
+    "imageSource": "https://www.calendarpedia.com/images-large/school/school-calendar-2026-2027-on-2-pages.png",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--mentonepark-vic-edu-au--45acb446017a.jpg": {
+    "width": 2857,
+    "height": 4515,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · couple",
+    "source": "https://www.mentonepark.vic.edu.au/enews/details/65",
+    "imageSource": "https://www.mentonepark.vic.edu.au/source/t1 2025/2025_MPPS_School Calendar_term 2.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--scribd-com--469a6eb5ac21.jpg": {
+    "width": 768,
+    "height": 1024,
+    "account": "다음",
+    "studio": "리저브 스튜디오 · couple",
+    "source": "https://www.scribd.com/document/723446043/TERM-II-CALENDAR-2024",
+    "imageSource": "https://imgv2-2-f.scribdassets.com/img/document/723446043/original/29cb2b2417/1?v=1",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--mrwallpaper-com--205dd0dda71f.jpg": {
+    "width": 6000,
+    "height": 4000,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://mrwallpaper.com/wallpapers/4k-landscape-khuvsgul-lake-mongolia-r8tiswyfgkzg44on.html",
+    "imageSource": "https://mrwallpaper.com/images/file/4k-landscape-khuvsgul-lake-mongolia-r8tiswyfgkzg44on.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--gettyimages-fi--1cab335021f3.jpg": {
+    "width": 1024,
+    "height": 682,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://www.gettyimages.fi/detail/valokuva/khuvsgul-lake-a-freshwater-lake-in-the-khövsgöl-rojaltivapaa-kuva/2209353483",
+    "imageSource": "https://media.gettyimages.com/id/2209353483/photo/khuvsgul-lake-a-freshwater-lake-in-the-khövsgöl-province-mongolia-central-asia.jpg?s=1024x1024&w=gi&k=20&c=B4mT6YWV2CHwQdGVLgAyQYab-ugDA-TeqgAAUsialy4=",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--freepik-com--fceef2dc8939.jpg": {
+    "width": 2000,
+    "height": 1321,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://www.freepik.com/premium-photo/tolbo-nuur-lake-mongolia-landscapes-western-mongolia-asia-travels-mountain-lake_15906128.htm",
+    "imageSource": "https://img.freepik.com/premium-photo/tolbo-nuur-lake-mongolia-landscapes-western-mongolia-asia-travels-mountain-lake_323283-1456.jpg?w=2000",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--fity-club--d0e6201d1261.jpg": {
+    "width": 3840,
+    "height": 2156,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://fity.club/lists/suggestions/Lake-Hovsgol-Mongolia-Ger/",
+    "imageSource": "https://images.surferseo.art/c7aa3eca-2138-4010-a4e2-a1623ecc7618.jpeg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--alamy-com--ccd239ee1fbc.jpg": {
+    "width": 1300,
+    "height": 956,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://www.alamy.com/lake-tsagaan-nuur-mongolia-image564917244.html",
+    "imageSource": "https://c8.alamy.com/comp/2RR25KT/lake-tsagaan-nuur-mongolia-2RR25KT.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--alamy-com--012968de9552.jpg": {
+    "width": 1300,
+    "height": 956,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://www.alamy.com/mongolian-natural-landscapes-near-lake-tolbo-nuur-surrounded-by-mountains-and-rocks-in-north-mongolia-image439617077.html",
+    "imageSource": "https://c8.alamy.com/comp/2GF681W/mongolian-natural-landscapes-near-lake-tolbo-nuur-surrounded-by-mountains-and-rocks-in-north-mongolia-2GF681W.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--alamy-com--909dacbc0975.jpg": {
+    "width": 1300,
+    "height": 956,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://www.alamy.com/stock-photo/mongolia-lake-khuvsgul-national.html",
+    "imageSource": "https://c8.alamy.com/comp/2XY12XW/the-khuvsgul-lake-in-mongolia-2XY12XW.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--freepik-com--1e5024fe04d9.jpg": {
+    "width": 2000,
+    "height": 1333,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://www.freepik.com/premium-photo/aerial-view-terkhiin-tsagaan-lake-also-called-white-lake-end-summer-mongolia_32174591.htm",
+    "imageSource": "https://img.freepik.com/premium-photo/aerial-view-terkhiin-tsagaan-lake-also-called-white-lake-end-summer-mongolia_724552-19.jpg?w=2000",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--klook-com--98d13649d6a6.jpg": {
+    "width": 1295,
+    "height": 728,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://www.klook.com/activity/98137-central-mongolia-and-lake-khuvsgul-tour/",
+    "imageSource": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_728/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/fwotn1q54pao8rv4ssrm/8D7NCentralMongoliaandLakeKhuvsgulTour.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--shutterstock-com--4fdd1729d391.jpg": {
+    "width": 1500,
+    "height": 1096,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://www.shutterstock.com/search/mongolian-hovsgol-lake-image",
+    "imageSource": "https://www.shutterstock.com/shutterstock/photos/86496595/display_1500/stock-photo-hovsgol-largest-lake-in-mongolia-86496595.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--alamy-com--d51614496638.jpg": {
+    "width": 1300,
+    "height": 953,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://www.alamy.com/hovsgol-largest-lake-in-mongolia-image66428337.html",
+    "imageSource": "https://c8.alamy.com/comp/DT220H/hovsgol-largest-lake-in-mongolia-DT220H.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--unsplash-com--b78a8c07aa6a.jpg": {
+    "width": 3000,
+    "height": 2250,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://unsplash.com/s/photos/mongolia",
+    "imageSource": "https://images.unsplash.com/photo-1595692732588-2e8a32b77911?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG1vbmdvbGlhfGVufDB8fDB8fHww",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--freepik-com--dad5a7ad23d8.jpg": {
+    "width": 996,
+    "height": 659,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://www.freepik.com/premium-photo/lake-mongolia_37193251.htm",
+    "imageSource": "https://img.freepik.com/premium-photo/lake-mongolia_328046-36204.jpg?w=996",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--alamy-com--f84fc2483eb6.jpg": {
+    "width": 1300,
+    "height": 904,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://www.alamy.com/stock-photo-beautiful-landscape-with-lake-and-mountain-mongolia-lake-khubsugul-101242199.html",
+    "imageSource": "https://c8.alamy.com/comp/FTKYCR/beautiful-landscape-with-lake-and-mountain-mongolia-lake-khubsugul-FTKYCR.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--freepik-com--d6b2d77caf6b.jpg": {
+    "width": 2000,
+    "height": 1333,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://www.freepik.com/premium-photo/terkhiin-tsagaan-lake-also-called-white-lake-mongolia-surrounding-mountains_32174587.htm",
+    "imageSource": "https://img.freepik.com/premium-photo/terkhiin-tsagaan-lake-also-called-white-lake-mongolia-surrounding-mountains_724552-18.jpg?w=2000",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--alamy-com--16774e1a3cd4.jpg": {
+    "width": 1300,
+    "height": 956,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://www.alamy.com/stock-photo/valley-of-the-lakes-mongolia.html",
+    "imageSource": "https://c8.alamy.com/comp/2A821DR/cloudy-view-on-a-mountain-lake-mongolia-2A821DR.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--edition-cnn-com--65be9c86ae01.jpg": {
+    "width": 1280,
+    "height": 711,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://edition.cnn.com/travel/article/beautiful-mongolia/index.html",
+    "imageSource": "https://media.cnn.com/api/v1/images/stellar/prod/150907165607-beautiful-mongolia3-great-white-lake1.jpg?q=w_1800,h_1000,x_0,y_0,c_fill/w_1280",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--alamy-com--b347d81ee308.jpg": {
+    "width": 1300,
+    "height": 956,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://www.alamy.com/stock-photo/beautiful-mongolia-lake.html",
+    "imageSource": "https://c8.alamy.com/comp/BMAFG7/reflection-in-a-lake-BMAFG7.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--alamy-com--7fc74d5bd796.jpg": {
+    "width": 1300,
+    "height": 1065,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://www.alamy.com/aerial-view-of-bayan-lake-camp-site-santmargats-zavkhan-mongolia-image667427222.html",
+    "imageSource": "https://c8.alamy.com/comp/3ANRX6E/aerial-view-of-bayan-lake-camp-site-santmargats-zavkhan-mongolia-3ANRX6E.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--nationalgeographic-com--8ba7103045d5.jpg": {
+    "width": 3072,
+    "height": 2048,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://www.nationalgeographic.com/travel/article/experience-worlds-most-remote-destinations",
+    "imageSource": "https://i.natgeofe.com/n/9b1c7c4d-7303-42e3-ab6a-047493dcaf22/newfrontiersmongoliavolcaniclake.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--gowildmongolia-com--5d344d5895f1.jpg": {
+    "width": 1456,
+    "height": 816,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "http://gowildmongolia.com/tour.html",
+    "imageSource": "http://gowildmongolia.com/images/hub.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--animalia-life-club--44260aa927d4.jpg": {
+    "width": 860,
+    "height": 860,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://animalia-life.club/qa/pictures/bunga-raya-drawing",
+    "imageSource": "https://img.lovepik.com/png/20231115/hibiscus-flower-clipart-large-hibiscus-vector-drawing-with-leaves-of_601490_wh860.png",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--vecteezy-com--6e75e643bc28.jpg": {
+    "width": 980,
+    "height": 980,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://www.vecteezy.com/free-vector/bunga-raya",
+    "imageSource": "https://static.vecteezy.com/system/resources/previews/012/188/265/non_2x/red-hibiscus-flower-vector.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--animalia-life-club--859651b5d468.jpg": {
+    "width": 1200,
+    "height": 1200,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://animalia-life.club/qa/pictures/bunga-raya-drawing",
+    "imageSource": "https://img.lovepik.com/png/20231108/an-inked-drawing-of-a-hibiscus-flower-outline-sketch-vector_533252_wh1200.png",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--deviantart-com--a20bd670db86.jpg": {
+    "width": 1280,
+    "height": 1600,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://www.deviantart.com/azahohyanuddin/art/Bunga-Raya-979941848",
+    "imageSource": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/13e9ba07-85fd-49c4-b616-741e0bb58089/dg7fjyw-e326d8dc-80dd-463a-ad8e-ea054231c489.jpg/v1/fill/w_1280,h_1600,q_75,strp/bunga_raya_by_azahohyanuddin_dg7fjyw-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTYwMCIsInBhdGgiOiJcL2ZcLzEzZTliYTA3LTg1ZmQtNDljNC1iNjE2LTc0MWUwYmI1ODA4OVwvZGc3Zmp5dy1lMzI2ZDhkYy04MGRkLTQ2M2EtYWQ4ZS1lYTA1NDIzMWM0ODkuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.qcRhsSrePkizoyBoKzPsZXcRNAoFja_Mhp8_lkkS6LI",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--shutterstock-com--86d969be9da7.jpg": {
+    "width": 1500,
+    "height": 1600,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://www.shutterstock.com/search/bunga-raya?image_type=illustration",
+    "imageSource": "https://www.shutterstock.com/shutterstock/photos/2208090341/display_1500/stock-vector-a-bouquet-of-red-hibiscus-flowers-in-a-hand-drawn-style-on-a-white-background-chinese-rose-vector-2208090341.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--ar-inspiredpencil-com--74d60d727958.jpg": {
+    "width": 1200,
+    "height": 1200,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://ar.inspiredpencil.com/pictures-2023/bunga-raya-clipart-black-and-white",
+    "imageSource": "https://png.pngtree.com/png-clipart/20230602/original/pngtree-hibiscus-flower-in-an-outline-png-image_9175947.png",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--ar-inspiredpencil-com--c0733299dc8f.jpg": {
+    "width": 860,
+    "height": 860,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://ar.inspiredpencil.com/pictures-2023/bunga-raya-clipart-png",
+    "imageSource": "https://img2.clipart-library.com/27/bunga-raya-clip-art/bunga-raya-clip-art-32.png",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--ms-pngtree-com--adcabde2e4c0.jpg": {
+    "width": 1200,
+    "height": 1200,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://ms.pngtree.com/freepng/drawing-malaysia-hibiscus-flower_8538297.html",
+    "imageSource": "https://png.pngtree.com/png-clipart/20220911/original/pngtree-drawing-malaysia-hibiscus-flower-png-image_8538297.png",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--crelikakuopa-blogspot-co--0a58ef98dcf8.jpg": {
+    "width": 1280,
+    "height": 720,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://crelikakuopa.blogspot.com/2022/06/bunga-raya-bunga-kebangsaan-drawing.html",
+    "imageSource": "https://i0.wp.com/i.pinimg.com/originals/07/24/f0/0724f0ec5ce7129087b21fbdd29f5115.jpg?resize=160,120",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--fredalamoureux-blogspot---2fa5e5ee6413.jpg": {
+    "width": 736,
+    "height": 920,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://fredalamoureux.blogspot.com/2022/06/drawing-bunga-raya-cartoon-bunga-raya.html",
+    "imageSource": "https://i0.wp.com/i.pinimg.com/736x/18/1e/f5/181ef56b0ecb74aed9fe69f794651f63.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--shaylatarosims-blogspot---369552befcd4.jpg": {
+    "width": 1123,
+    "height": 1300,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://shaylatarosims.blogspot.com/2022/07/drawing-bunga-raya.html",
+    "imageSource": "https://i.pinimg.com/originals/96/95/ea/9695ead3cff2020f89ef4aa37efcf750.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--narodnatribuna-info--5d5a8e208fc8.jpg": {
+    "width": 1200,
+    "height": 1200,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://narodnatribuna.info/lists/e/how-to-draw-bunga-raya-step-by-step-shoeblackplant-clip-art-vector/",
+    "imageSource": "https://png.pngtree.com/png-clipart/20210613/original/pngtree-hibiscus-flower-drawing-vector-png-image_6407341.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--ar-inspiredpencil-com--d23076ddd78e.jpg": {
+    "width": 1280,
+    "height": 720,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://ar.inspiredpencil.com/pictures-2023/bunga-raya-drawing-realistic",
+    "imageSource": "https://i.ytimg.com/vi/_1pI6Qhvy-I/maxresdefault.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--petrinefrederiksen-blogs--f4690b275b29.jpg": {
+    "width": 1300,
+    "height": 1389,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://petrinefrederiksen.blogspot.com/2022/06/drawing-bunga-raya-20210603-bunga-raya.html",
+    "imageSource": "https://i1.wp.com/c8.alamy.com/comp/JH4WRC/malaysia-national-flower-red-hibiscus-flowers-with-leaves-color-illustration-JH4WRC.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--ar-inspiredpencil-com--0445d69eaa5c.jpg": {
+    "width": 1600,
+    "height": 1512,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://ar.inspiredpencil.com/pictures-2023/bunga-raya-drawing-easy",
+    "imageSource": "https://thumbs.dreamstime.com/z/national-flower-malaysia-bunga-raya-hibiscus-flowers-illustration-70745123.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--ar-inspiredpencil-com--fea62566a648.jpg": {
+    "width": 2500,
+    "height": 2500,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://ar.inspiredpencil.com/pictures-2023/bunga-raya-clipart-png",
+    "imageSource": "https://png.pngtree.com/png-clipart/20240908/original/pngtree-red-hibiscus-flower-color-illustration-of-s-on-a-transparent-background-png-image_15965551.png",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--orlandoruecker-blogspot---95edcb3d0470.jpg": {
+    "width": 1200,
+    "height": 1728,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://orlandoruecker.blogspot.com/2022/06/sketch-bunga-raya-drawing-hibiscus.html",
+    "imageSource": "https://i1.wp.com/kiahkiean.com/wp-content/uploads/2021/06/20210603-Bunga-Raya-Series-II.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--giulianalucchesi-blogspo--767d89db369b.jpg": {
+    "width": 1298,
+    "height": 1766,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://giulianalucchesi.blogspot.com/2022/06/sketch-bunga-raya-drawing-gambar-bunga.html",
+    "imageSource": "https://i1.wp.com/dianeconstantine.com/wp-content/uploads/2021/04/04-13-21-Bunga-Raya-Graphite-Final.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--shutterstock-com--6b1c3709c398.jpg": {
+    "width": 1500,
+    "height": 1150,
+    "account": "다음",
+    "studio": "비포원 스튜디오 · couple",
+    "source": "https://www.shutterstock.com/search/bunga-raya?image_type=illustration",
+    "imageSource": "https://www.shutterstock.com/shutterstock/photos/131002037/display_1500/stock-photo-beautiful-flower-an-illustration-group-of-fresh-red-hibiscus-flowers-or-bunga-raya-on-green-leaves-131002037.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--fayranches-com--e3bd98f31a97.jpg": {
+    "width": 1536,
+    "height": 862,
+    "account": "네이버 블로그",
+    "studio": "소공원 스튜디오 · couple",
+    "source": "https://fayranches.com/property/shulin-lake-resort-alaska/",
+    "imageSource": "https://fayranches.com/wp-content/uploads/2026/01/scenic-vista-alaska-shulin-lake-resort-1-1536x862.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--fity-club--5f59c0849c0f.jpg": {
+    "width": 1023,
+    "height": 701,
+    "account": "네이버 블로그",
+    "studio": "소공원 스튜디오 · couple",
+    "source": "https://fity.club/lists/suggestions/the-university-of-western-australia-logo/",
+    "imageSource": "https://live.staticflickr.com/4115/4887227380_d2e01fab3e_b.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--artofit-org--3d55a0b4015f.jpg": {
+    "width": 1950,
+    "height": 1356,
+    "account": "네이버 블로그",
+    "studio": "소공원 스튜디오 · couple",
+    "source": "https://www.artofit.org/image-gallery/university-of-west-alabama/",
+    "imageSource": "https://i.pinimg.com/originals/4b/fe/65/4bfe65fa405cd76b12077032449e0d3f.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--fity-club--779036f504d2.jpg": {
+    "width": 1000,
+    "height": 1000,
+    "account": "네이버 블로그",
+    "studio": "소공원 스튜디오 · couple",
+    "source": "https://fity.club/lists/suggestions/the-university-of-western-australia-logo/",
+    "imageSource": "https://www.mokoh.com.au/wp-content/uploads/2021/07/prmd_udub_unframed.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--clipartkey-com--9df93eaaefbd.jpg": {
+    "width": 900,
+    "height": 743,
+    "account": "공식/웹",
+    "studio": "원규 스튜디오 · couple",
+    "source": "https://www.clipartkey.com/view/TioTRR_shop-clipart-sari-sari-store-sari-sari-store/",
+    "imageSource": "https://www.clipartkey.com/mpngs/m/57-578342_shop-clipart-sari-sari-store-sari-sari-store.png",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--clipart-library-com--4f3ef5bb6073.jpg": {
+    "width": 2000,
+    "height": 1414,
+    "account": "공식/웹",
+    "studio": "원규 스튜디오 · couple",
+    "source": "https://clipart-library.com/sari-sari-store-clip-art.html",
+    "imageSource": "https://img2.clipart-library.com/28/sari-sari-store-clip-art/sari-sari-store-clip-art-16.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--shutterstock-com--32e6c69da39b.jpg": {
+    "width": 1500,
+    "height": 1600,
+    "account": "공식/웹",
+    "studio": "원규 스튜디오 · couple",
+    "source": "https://www.shutterstock.com/search/sari-sari-store?image_type=illustration",
+    "imageSource": "https://www.shutterstock.com/shutterstock/photos/1609822552/display_1500/stock-photo-sari-sari-store-with-goods-1609822552.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--ph-pinterest-com--7ecbc387b673.jpg": {
+    "width": 736,
+    "height": 981,
+    "account": "공식/웹",
+    "studio": "원규 스튜디오 · couple",
+    "source": "https://ph.pinterest.com/pin/filipino-sarisari-store-drawing--351703052172613231/",
+    "imageSource": "https://i.pinimg.com/736x/b7/01/d9/b701d9dcf1469977d21c746b68db261e.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--pinclipart-com--bcfe458a45ff.jpg": {
+    "width": 1280,
+    "height": 1119,
+    "account": "공식/웹",
+    "studio": "원규 스튜디오 · couple",
+    "source": "https://www.pinclipart.com/maxpin/xiwhJJ/",
+    "imageSource": "https://www.pinclipart.com/picdir/big/194-1942491_sari-sari-store-clipart-sari-sari-store-vector.png",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--alamy-com--50cf5cf5c8ca.jpg": {
+    "width": 843,
+    "height": 1390,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://www.alamy.com/stock-photo-cristiano-ronaldo-manchester-united-fc-stamford-bridge-chelsea-england-146258980.html",
+    "imageSource": "https://c8.alamy.com/comp/JDXJR0/cristiano-ronaldo-manchester-united-fc-stamford-bridge-chelsea-england-JDXJR0.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--wallpaperhub-github-io--5a76d0fe3ac0.jpg": {
+    "width": 736,
+    "height": 1309,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://wallpaperhub.github.io/ronaldo/1080p-ronaldo-manchester-united-wallpaper",
+    "imageSource": "https://i.pinimg.com/originals/6d/02/3e/6d023ef0399f9fd00280cc78c5ce5520.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--sportskeeda-com--710208f7c1c0.jpg": {
+    "width": 1920,
+    "height": 1280,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://www.sportskeeda.com/football/manchester-united-0-1-real-sociedad-red-devils-player-ratings-cristiano-ronaldo-misfires-disappointing-defeat-uefa-europa-league-2022-23",
+    "imageSource": "https://staticg.sportskeeda.com/editor/2022/09/cd7d9-16626721060907-1920.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--ar-inspiredpencil-com--38fa0ce4f305.jpg": {
+    "width": 1046,
+    "height": 1200,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://ar.inspiredpencil.com/pictures-2023/cristiano-ronaldo-manchester-united-debut",
+    "imageSource": "https://pbs.twimg.com/media/Cp_g7EvWgAArt5A.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--wallpapers-com--2e352e8993a5.jpg": {
+    "width": 2560,
+    "height": 1600,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://wallpapers.com/cristiano-ronaldo-manchester-united-background",
+    "imageSource": "https://wallpapers.com/images/hd/cristiano-ronaldo-manchester-united-dark-aesthetic-htjhiebzhr6nefax.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--fourfourtwo-com--8a9b5f523606.jpg": {
+    "width": 3840,
+    "height": 2559,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://www.fourfourtwo.com/news/manchester-united-transfer-news-in-talks-to-sign-the-next-cristiano-ronaldo-report-geovany-quenda-sporting-lisbon-man-utd-manu-signings-rumours-gossip-paper-talk-mufc",
+    "imageSource": "https://cdn.mos.cms.futurecdn.net/gx2ycREfCd5vock5o8vRkS.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--wallpapers-com--0b55199d7130.jpg": {
+    "width": 2110,
+    "height": 2667,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://wallpapers.com/cristiano-ronaldo-manchester-united",
+    "imageSource": "https://wallpapers.com/images/hd/cristiano-ronaldo-manchester-united-photoshoot-92lfhtajyytynqgs.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--wallpapercave-com--4cef21966a82.jpg": {
+    "width": 1036,
+    "height": 2048,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://wallpapercave.com/man-united-ronaldo-wallpapers",
+    "imageSource": "https://wallpapercave.com/wp/wp11411206.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--goal-com--bcbb0fca646d.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://www.goal.com/en/lists/second-debut-delight-destroyed-legacy-cristiano-ronaldo-second-man-utd-spell-disaster/blt0cd02050b12a2816",
+    "imageSource": "https://assets.goal.com/images/v3/bltf74ad85ca6674256/Cristiano_Ronaldo_Manchester_United_GFX.jpeg?auto=webp&format=pjpg&width=3840&quality=60",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--ar-inspiredpencil-com--e16a58f31482.jpg": {
+    "width": 869,
+    "height": 1390,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://ar.inspiredpencil.com/pictures-2023/cristiano-ronaldo-manchester-united-2000s",
+    "imageSource": "https://c8.alamy.com/comp/JE34ER/cristiano-ronaldo-manchester-united-fc-old-trafford-manchester-england-JE34ER.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--wallpapercave-com--aab4c873e582.jpg": {
+    "width": 3840,
+    "height": 2400,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://wallpapercave.com/man-united-ronaldo-4k-wallpapers",
+    "imageSource": "https://wallpapercave.com/wp/wp10773535.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--unitedinfocus-com--d58faa6c721f.jpg": {
+    "width": 2048,
+    "height": 1365,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://www.unitedinfocus.com/cr7/cristiano-ronaldo-has-just-got-what-he-wanted-from-manchester-united-all-along/",
+    "imageSource": "https://cdn1.unitedinfocus.com/uploads/14/2022/09/GettyImages-1242874301-2048x1365.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--fity-club--2c9967496abe.jpg": {
+    "width": 869,
+    "height": 1390,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://fity.club/lists/suggestions/Cristiano-Ronaldo-Manchester-United-2003/",
+    "imageSource": "https://c8.alamy.com/comp/JE34R2/cristiano-ronaldo-manchester-united-fc-manchester-england-old-trafford-JE34R2.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--gettyimages-com--9fdf2572a55a.jpg": {
+    "width": 682,
+    "height": 1024,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://www.gettyimages.com/detail/news-photo/cristiano-ronaldo-of-manchester-united-runs-with-the-ball-news-photo/2427655",
+    "imageSource": "https://media.gettyimages.com/id/2427655/photo/cristiano-ronaldo-of-manchester-united.jpg?s=1024x1024&w=gi&k=20&c=f7I_yrDsuyZA5YpeNUgDX06CuihTj6DD4TxJbNck6jk=",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--thevault-co-uk--d7315bd63a98.jpg": {
+    "width": 2048,
+    "height": 2048,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://thevault.co.uk/products/cristiano-ronaldo-signed-manchester-united-shirt-2021-22-home-7",
+    "imageSource": "http://thevault.co.uk/cdn/shop/files/Ronaldo-Signed-Manchester-United-Shirt.jpg?v=1719499866",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--wallpapercave-com--fa0e4f2dc608.jpg": {
+    "width": 2000,
+    "height": 2500,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://wallpapercave.com/cristiano-ronaldo-man-united-wallpapers",
+    "imageSource": "https://wallpapercave.com/wp/wp9749072.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--wallpaperaccess-com--288f7a8a6f94.jpg": {
+    "width": 3840,
+    "height": 2400,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://wallpaperaccess.com/cr7-manchester-united",
+    "imageSource": "https://wallpaperaccess.com/full/8416781.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--esa-our-dogs-info--77a69ab5fc46.jpg": {
+    "width": 869,
+    "height": 1390,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://esa.our-dogs.info/cristiano-ronaldo-manchester-united-2003",
+    "imageSource": "https://c8.alamy.com/comp/JE34BG/cristiano-ronaldo-manchester-united-fc-st-james-park-newcastle-england-JE34BG.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--wallpaperbat-com--b79c6a5e077b.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://wallpaperbat.com/cristiano-ronaldo-laptop-wallpapers",
+    "imageSource": "https://wallpaperbat.com/img/37501970-cristiano-ronaldo-manchester-united.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--wallpapers-com--933aefbd70b7.jpg": {
+    "width": 3840,
+    "height": 2400,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://wallpapers.com/cristiano-ronaldo-manchester-united-background",
+    "imageSource": "https://wallpapers.com/images/hd/cristiano-ronaldo-manchester-united-painted-artwork-8osiar8nec285hln.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--infoupdate-org--cc753e10dc98.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://infoupdate.org/cristiano-ronaldo-manchester-united-wallpaper-4k-pc/",
+    "imageSource": "http://m.gettywallpapers.com/wp-content/uploads/2023/12/Cristiano-Ronaldo-Manchester-United-4k-Wallpaper-For-PC.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--esa-our-dogs-info--e970f316937b.jpg": {
+    "width": 1015,
+    "height": 1015,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://esa.our-dogs.info/cristiano-ronaldo-manchester-united-2003",
+    "imageSource": "https://pbs.twimg.com/media/E_ANKtuWYAsborC.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--ar-inspiredpencil-com--1b7253295152.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://ar.inspiredpencil.com/pictures-2023/cristiano-ronaldo-manchester-united-free-kick-wallpaper",
+    "imageSource": "https://wallpapers.com/images/hd/cristiano-ronaldo-manchester-united-poster-8mamuv3n29fkv4vz.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--xaydungso-vn--bff80603c54a.jpg": {
+    "width": 1080,
+    "height": 1920,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://xaydungso.vn/bai-viet-khac/nhung-mau-hinh-nen-ronaldo-manchester-united-cuc-chat-cho-fan-vi-cb.html",
+    "imageSource": "https://pbs.twimg.com/media/EZCyfbbXkAw4TXH.jpg:large",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--wallpapercave-com--84eef1c31f31.jpg": {
+    "width": 1080,
+    "height": 1920,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://wallpapercave.com/cristiano-ronaldo-manchester-united-wallpapers",
+    "imageSource": "https://wallpapercave.com/wp/wp10932955.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--sportico-com--8e99e11050cf.jpg": {
+    "width": 1280,
+    "height": 719,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://www.sportico.com/personalities/athletes/2022/ronaldo-manchester-united-split-1234696430/",
+    "imageSource": "https://www.sportico.com/wp-content/uploads/2022/11/GettyImages-1439987762-e1669145566868.jpg?w=1280&h=719&crop=1",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--rtve-es--c5016255ec63.jpg": {
+    "width": 1600,
+    "height": 900,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://www.rtve.es/deportes/20221122/cristiano-ronaldo-salida-manchester-united/2409803.shtml",
+    "imageSource": "https://img2.rtve.es/v/6742065?w=1600&preview=1669152125749.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--wallpapers-com--e775bc012aa1.jpg": {
+    "width": 2048,
+    "height": 1638,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://wallpapers.com/cristiano-ronaldo-manchester-united-background",
+    "imageSource": "https://wallpapers.com/images/hd/cristiano-ronaldo-manchester-united-football-club-vsuux9bjbeq2skan.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--teamtalk-com--d80d62f89a68.jpg": {
+    "width": 1600,
+    "height": 900,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://www.teamtalk.com/manchester-united/cristiano-ronaldo-january-transfer-jorge-mendes-offers-real-madrid-return",
+    "imageSource": "https://images.teamtalk.com/content/uploads/2022/10/20214845/Cristiano-Ronaldo-of-Manchester-United.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--cristiano-ronaldo-manche--6a684957320d.jpg": {
+    "width": 1024,
+    "height": 768,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://cristiano-ronaldo-manchester-united-7.blogspot.com/2021/02/cristiano-ronaldo-manchester-united_22.html",
+    "imageSource": "https://i.pinimg.com/originals/00/5a/cb/005acb9fc875a623cf83fcf9ed6d7898.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--wallpapers-com--1ff5c9150c02.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://wallpapers.com/cristiano-ronaldo-manchester-united-pictures",
+    "imageSource": "https://wallpapers.com/images/hd/cristiano-ronaldo-manchester-united-digital-art-qqx6ghjkfmqlfi32.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--independent-co-uk--37f9a32edcbf.jpg": {
+    "width": 1956,
+    "height": 1304,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://www.independent.co.uk/sport/football/cristiano-ronaldo-erik-ten-hag-manchester-united-b2207985.html",
+    "imageSource": "https://static.independent.co.uk/2022/10/21/17/9b6396786eab5087b27fde67edbe7126Y29udGVudHNlYXJjaGFwaSwxNjY2NDUxOTEx-2.69206241.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--gettyimages-com--517542fe4afa.jpg": {
+    "width": 685,
+    "height": 1024,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://www.gettyimages.com/detail/news-photo/cristiano-ronaldo-of-manchester-united-makes-his-debut-for-news-photo/2427626",
+    "imageSource": "https://media.gettyimages.com/id/2427626/photo/cristiano-ronaldo-of-manchester-united.jpg?s=1024x1024&w=gi&k=20&c=qdiR3R1zi26lOyDxXbMgmfPDAIn-Oi6G35-Aoxk9XrM=",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--wallpapercave-com--9fbbc65e4f9c.jpg": {
+    "width": 1065,
+    "height": 2047,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://wallpapercave.com/ronaldo-manchester-united-wallpapers",
+    "imageSource": "https://wallpapercave.com/wp/wp7471328.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--skysports-com--df17219ba5ae.jpg": {
+    "width": 2048,
+    "height": 1152,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://www.skysports.com/football/news/11095/12645592/cristiano-ronaldo-the-problem-manchester-united-could-have-done-without-this-summer",
+    "imageSource": "https://e0.365dm.com/22/07/2048x1152/skysports-ronaldo-manchester-united_5821618.jpg?20220702193842",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--cristiano-ronaldo-manche--c6e89d6ae640.jpg": {
+    "width": 699,
+    "height": 1024,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://cristiano-ronaldo-manchester-united-7.blogspot.com/2021/03/cristiano-ronaldo-manchester-united-2009.html",
+    "imageSource": "https://i.pinimg.com/736x/b9/a9/70/b9a9707278096dd4bbfd2818c8235bc0.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--frontofficesports-com--de502e2febac.jpg": {
+    "width": 1500,
+    "height": 1000,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://frontofficesports.com/cristiano-ronaldo-manchester-united-agree-to-split/",
+    "imageSource": "https://frontofficesports.com/wp-content/uploads/2022/11/FOS-PM-22-11.22-Ronaldo-Manchester-United.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--givemesport-com--36f93dc770c4.jpg": {
+    "width": 3000,
+    "height": 1500,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://www.givemesport.com/cristiano-ronaldo-best-goals/",
+    "imageSource": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2025/03/epl_cristiano-ronaldo-man-11.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--ge-globo-com--d24d89516493.jpg": {
+    "width": 1200,
+    "height": 823,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://ge.globo.com/futebol/selecoes/portugal/noticia/2022/11/22/cristiano-ronaldo-fala-sobre-saida-do-manchester-united-momento-certo-1.ghtml",
+    "imageSource": "https://s2-ge.glbimg.com/r1HPaQYSUg6W66yjRdLR4-cWr7o=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/s/U/M3KThWSvmIobXeoIKrKw/2022-10-27t204304z-2106604607-up1eiar1ljqsg-rtrmadp-3-soccer-europa-mun-she-report.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--couple--wallpapers-com--48a64ee53f72.jpg": {
+    "width": 2880,
+    "height": 1800,
+    "account": "공식/웹",
+    "studio": "봉 스튜디오 · couple",
+    "source": "https://wallpapers.com/wallpapers/cristiano-ronaldo-manchester-united-abstract-red-enx4huv2fs1khrp9.html",
+    "imageSource": "https://wallpapers.com/images/file/cristiano-ronaldo-manchester-united-abstract-red-enx4huv2fs1khrp9.jpg",
+    "categoryHint": "couple"
+  },
+  "images/delete/candidate--outdoor--touringwiki-com--651a3b618cd5.jpg": {
+    "width": 1351,
+    "height": 1600,
+    "account": "다음",
+    "studio": "한국 · outdoor",
+    "source": "https://www.touringwiki.com/2022/12/100-100.html",
+    "imageSource": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFWXZFPZ9Xq6XVjdtsPB5WSN7oJIoG-bLZc7OW7amy_4awUK3nFmVHqmFeicfval-4-5B8ofrREnuq7fo8TyOHbQAa4LCIymrhEFWWxBdM15lfdSUbd_0fE5IxxFHcZCjFhAr0RqDz4zfUlLxCG3bnlbfAEyz6rYVhlh3uGSTAew07rWefQfkWFoAHcA/s1600/20220525_113834.jpg",
+    "categoryHint": "outdoor"
+  },
+  "images/delete/candidate--outdoor--urbanbrush-net--1bac2d045bc2.jpg": {
+    "width": 1121,
+    "height": 1120,
+    "account": "다음",
+    "studio": "한국 · outdoor",
+    "source": "https://www.urbanbrush.net/km/png/downloads/야자수-png-투명배경-일러스트-다운로드/",
+    "imageSource": "https://www.urbanbrush.net/png/wp-content/uploads/edd/2022/10/png-png-urbanbrush-1453.jpg",
+    "categoryHint": "outdoor"
+  },
+  "images/delete/candidate--outdoor--shutterstock-com--08d52d59832f.jpg": {
+    "width": 1500,
+    "height": 1101,
+    "account": "다음",
+    "studio": "한국 · outdoor",
+    "source": "https://www.shutterstock.com/ko/search/한국-지구본?image_type=vector",
+    "imageSource": "https://www.shutterstock.com/shutterstock/photos/2221697063/display_1500/stock-vector-south-korea-map-grey-color-on-white-background-png-2221697063.jpg",
+    "categoryHint": "outdoor"
+  },
+  "images/delete/candidate--outdoor--kr-freepik-com--ca0ac643ab8b.jpg": {
+    "width": 1272,
+    "height": 2000,
+    "account": "다음",
+    "studio": "한국 · outdoor",
+    "source": "https://kr.freepik.com/premium-vector/south-korea-map-illustration-material-travel-vector-color-south-korea_61424927.htm",
+    "imageSource": "https://img.freepik.com/premium-vector/south-korea-map-illustration-material-travel-vector-color-south-korea_391639-1353.jpg?w=2000",
+    "categoryHint": "outdoor"
+  },
+  "images/delete/candidate--outdoor--shutterstock-com--422da92527d7.jpg": {
+    "width": 1500,
+    "height": 1092,
+    "account": "다음",
+    "studio": "한국 · outdoor",
+    "source": "https://www.shutterstock.com/ko/search/세계지도-한국",
+    "imageSource": "https://www.shutterstock.com/shutterstock/photos/1743602744/display_1500/stock-vector-korea-map-south-and-north-korea-korean-peninsula-vector-map-1743602744.jpg",
+    "categoryHint": "outdoor"
+  },
+  "images/delete/candidate--outdoor--kor-pngtree-com--a6e7445edcb9.jpg": {
+    "width": 1200,
+    "height": 673,
+    "account": "다음",
+    "studio": "한국 · outdoor",
+    "source": "https://kor.pngtree.com/freebackground/small-road-in-korean-traditional-house-at-sunset_2496316.html",
+    "imageSource": "https://png.pngtree.com/background/20230427/original/pngtree-small-road-in-korean-traditional-house-at-sunset-picture-image_2496316.jpg",
+    "categoryHint": "outdoor"
+  },
+  "images/delete/candidate--outdoor--kr-freepik-com--630ec4572886.jpg": {
+    "width": 1403,
+    "height": 2000,
+    "account": "다음",
+    "studio": "한국 · outdoor",
+    "source": "https://kr.freepik.com/premium-vector/south-korea-map-illustration-vector-detailed-south-korea-map-with-regions_31278538.htm",
+    "imageSource": "https://img.freepik.com/premium-vector/south-korea-map-illustration-vector-detailed-south-korea-map-with-regions_211056-19.jpg?w=2000",
+    "categoryHint": "outdoor"
+  },
+  "images/delete/candidate--outdoor--ardentnews-co-kr--d9e5e287cd03.jpg": {
+    "width": 1200,
+    "height": 675,
+    "account": "다음",
+    "studio": "한국 · outdoor",
+    "source": "https://www.ardentnews.co.kr/news/articleView.html?idxno=6677",
+    "imageSource": "https://cdn.ardentnews.co.kr/news/photo/202507/6677_31679_4758.jpg",
+    "categoryHint": "outdoor"
+  },
+  "images/delete/candidate--outdoor--photomarketing-co-kr--0595d4c95ce4.jpg": {
+    "width": 680,
+    "height": 1138,
+    "account": "다음",
+    "studio": "한국 · outdoor",
+    "source": "https://photomarketing.co.kr/문화체육관광부-20232024-한국관광-100선-발표/",
+    "imageSource": "http://photomarketing.co.kr/wp-content/uploads/2022/12/‘20232024-한국관광-100선’-지도.jpg",
+    "categoryHint": "outdoor"
+  },
+  "images/delete/candidate--outdoor--kor-pngtree-com--c629abe71fdb.jpg": {
+    "width": 1200,
+    "height": 1200,
+    "account": "다음",
+    "studio": "한국 · outdoor",
+    "source": "https://kor.pngtree.com/freepng/south-korea-flag-vector_8963484.html",
+    "imageSource": "https://png.pngtree.com/png-clipart/20230223/original/pngtree-south-korea-flag-vector-png-image_8963484.png",
+    "categoryHint": "outdoor"
+  },
+  "images/delete/candidate--outdoor--urbanbrush-net--bda2d4658a46.jpg": {
+    "width": 887,
+    "height": 1256,
+    "account": "다음",
+    "studio": "한국 · outdoor",
+    "source": "https://www.urbanbrush.net/downloads/대한민국-한국-문화-포스터-디자인-일러스트-ai-다운로/",
+    "imageSource": "https://www.urbanbrush.net/web/wp-content/uploads/edd/2025/08/UB-202508041458.jpg",
+    "categoryHint": "outdoor"
+  },
+  "images/delete/candidate--outdoor--ivisitkorea-com--5981467f8e6a.jpg": {
+    "width": 1900,
+    "height": 1267,
+    "account": "다음",
+    "studio": "한국 · outdoor",
+    "source": "https://www.ivisitkorea.com/zh-TW/korean-folk-village-guide/",
+    "imageSource": "https://www.ivisitkorea.com/wp-content/uploads/2023/10/Korean-Folk-Village.gif",
+    "categoryHint": "outdoor"
+  },
+  "images/delete/candidate--outdoor--kr-freepik-com--cc237df743e7.jpg": {
+    "width": 2000,
+    "height": 2000,
+    "account": "다음",
+    "studio": "한국 · outdoor",
+    "source": "https://kr.freepik.com/premium-vector/icons-korea-culture-and-tradition_31795800.htm",
+    "imageSource": "https://img.freepik.com/premium-vector/icons-korea-culture-and-tradition_24640-79469.jpg?w=2000",
+    "categoryHint": "outdoor"
+  },
+  "images/delete/candidate--outdoor--stock-adobe-com--97247f0af5f1.jpg": {
+    "width": 1000,
+    "height": 912,
+    "account": "다음",
+    "studio": "한국 · outdoor",
+    "source": "https://stock.adobe.com/jp/images/한국의-전통-건축물-광화문/309868312",
+    "imageSource": "https://as2.ftcdn.net/v2/jpg/03/09/86/83/1000_F_309868312_7vRRiOIJD7SarX8bqVDIj3ZZkcu5b8gY.jpg",
+    "categoryHint": "outdoor"
+  },
+  "images/delete/candidate--outdoor--pixabay-com--752f65db5121.jpg": {
+    "width": 1280,
+    "height": 852,
+    "account": "다음",
+    "studio": "한국 · outdoor",
+    "source": "https://pixabay.com/ko/images/search/한국 전통 문/",
+    "imageSource": "https://cdn.pixabay.com/photo/2017/09/23/04/27/republic-of-korea-2777843_1280.jpg",
+    "categoryHint": "outdoor"
+  },
+  "images/delete/candidate--outdoor--tving-com--cb500ca7b548.jpg": {
+    "width": 1280,
+    "height": 720,
+    "account": "다음",
+    "studio": "한국 · outdoor",
+    "source": "https://www.tving.com/contents/E001661630",
+    "imageSource": "https://image.tving.com/ntgs/contents/CTC/caip/CAIP1500/ko/20231027/1340/P10340.jpg/dims/resize/1280",
+    "categoryHint": "outdoor"
+  },
+  "images/delete/candidate--outdoor--urbanbrush-net--91c3af8a3fd1.jpg": {
+    "width": 1268,
+    "height": 1267,
+    "account": "다음",
+    "studio": "한국 · outdoor",
+    "source": "https://www.urbanbrush.net/downloads/대한민국-명소-지도-일러스트-ai-다운로드-download-map-of-attractions-in-south-korea/",
+    "imageSource": "https://www.urbanbrush.net/web/wp-content/uploads/edd/2024/11/UB-202411221356.jpg",
+    "categoryHint": "outdoor"
+  },
+  "images/delete/candidate--outdoor--pixabay-com--c4bea09e677f.jpg": {
+    "width": 1280,
+    "height": 853,
+    "account": "다음",
+    "studio": "한국 · outdoor",
+    "source": "https://pixabay.com/ko/photos/한국-종묘-기와-전통-가옥-365207/",
+    "imageSource": "https://cdn.pixabay.com/photo/2014/06/09/03/01/republic-of-korea-365207_1280.jpg",
+    "categoryHint": "outdoor"
+  },
+  "images/delete/candidate--outdoor--joongang-co-kr--6897e46c3f7d.jpg": {
+    "width": 2048,
+    "height": 1536,
+    "account": "다음",
+    "studio": "한국 · outdoor",
+    "source": "https://www.joongang.co.kr/article/25115133",
+    "imageSource": "https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202211/05/5ce332d3-6d6b-4ee1-a3d3-20e0be501018.jpg",
+    "categoryHint": "outdoor"
+  },
+  "images/delete/candidate--outdoor--kr-freepik-com--7fb023c6073a.jpg": {
+    "width": 2000,
+    "height": 1333,
+    "account": "다음",
+    "studio": "한국 · outdoor",
+    "source": "https://kr.freepik.com/premium-vector/korean-traditional-cultures-pansori-monk-dance-lion-mask-dance-shaman-s-exorcism_35797006.htm",
+    "imageSource": "https://img.freepik.com/premium-vector/korean-traditional-cultures-pansori-monk-dance-lion-mask-dance-shaman-s-exorcism_540284-1084.jpg?w=2000",
+    "categoryHint": "outdoor"
+  },
+  "images/outdoor/019.webp": {
+    "width": 480,
+    "height": 600,
+    "account": "야외웨딩스냅",
+    "studio": "OUTDOOR SELF WEDDING",
+    "source": "https://www.instagram.com/explore/search/keyword/?q=%EC%95%BC%EC%99%B8%EC%9B%A8%EB%94%A9%EC%8A%A4%EB%83%85"
+  },
+  "images/outdoor/020.webp": {
+    "width": 480,
+    "height": 601,
+    "account": "야외웨딩스냅",
+    "studio": "OUTDOOR SELF WEDDING",
+    "source": "https://www.instagram.com/explore/search/keyword/?q=%EC%95%BC%EC%99%B8%EC%9B%A8%EB%94%A9%EC%8A%A4%EB%83%85"
   }
 }

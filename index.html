@@ -276,7 +276,7 @@
       focusCategory.textContent=item.categoryLabel;
       focusCount.textContent=`${String(state.current+1).padStart(3,'0')} / ${String(state.visible.length).padStart(3,'0')}`;
       focusTitle.textContent=item.studio;
-      if(item.source){focusSource.hidden=false;focusSource.href=item.source;focusSource.textContent=`@${item.account} · Instagram ↗`}
+      if(item.source){focusSource.hidden=false;focusSource.href=item.source;focusSource.textContent=`${item.account} · 출처 보기 ↗`}
       else{focusSource.hidden=true;focusSource.removeAttribute('href');focusSource.textContent=sourceDefaultText}
       heroNumber.textContent=String(item.id).padStart(3,'0');
       document.querySelectorAll('.card.active').forEach(card=>card.classList.remove('active'));
