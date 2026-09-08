@@ -1,0 +1,9 @@
+{
+  "name": "wedding-pose-atlas",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/generate-manifest.mjs",
+    "dev": "node scripts/dev-server.mjs"
+  }
+}
