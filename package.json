@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/generate-manifest.mjs",
+    "build": "node scripts/build-site.mjs",
     "dev": "node scripts/dev-server.mjs"
   }
 }

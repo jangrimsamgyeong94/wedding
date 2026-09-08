@@ -42,6 +42,7 @@
     .intro h1{margin:0;font:600 clamp(28px,3vw,45px)/.9 "Cormorant Garamond",serif;letter-spacing:-.025em}
     .intro p{margin:0;color:var(--muted);font-size:10px;line-height:1.55;text-align:right}
     .tabs{display:grid;grid-template-columns:repeat(5,1fr);border:1px solid var(--line);border-radius:100px;padding:4px;background:rgba(255,255,255,.38)}
+    .tabs.local{grid-template-columns:repeat(6,1fr)}
     .tab{border:0;border-radius:100px;background:transparent;color:#756d65;padding:10px 7px;font-size:11px;white-space:nowrap;transition:.25s var(--ease)}
     .tab span{margin-left:4px;opacity:.52}
     .tab.active{color:#fff;background:var(--ink);box-shadow:0 7px 18px rgba(21,19,17,.18)}
@@ -73,6 +74,11 @@
     .card.selected{outline:3px solid #b28a52;outline-offset:-3px}
     .card.selected .select-mark{background:#b28a52}
     .gallery-pane.selecting .card{cursor:copy}
+    .restore-tools{position:absolute;z-index:5;left:8px;right:8px;bottom:9px;display:grid;grid-template-columns:repeat(2,1fr);gap:5px;opacity:0;transform:translateY(7px);transition:.22s}
+    .card:hover .restore-tools,.card:focus-within .restore-tools{opacity:1;transform:none}
+    .restore-tools button{border:1px solid rgba(255,255,255,.72);border-radius:100px;background:rgba(17,15,13,.82);color:#fff;padding:7px 4px;font-size:11px;cursor:pointer}
+    .restore-tools button:hover,.restore-tools button:focus-visible{background:#b28a52;outline:2px solid #fff;outline-offset:1px}
+    .card[data-category="deleted"] .card-meta{bottom:76px}
     .empty{display:none;padding:90px 20px;text-align:center;color:var(--muted)}
     .footer{padding:20px 25px 32px;border-top:1px solid var(--line);color:var(--muted);font-size:10px;line-height:1.65}
     dialog{padding:0;border:0;background:transparent;max-width:none;max-height:none;width:100vw;height:100dvh}
@@ -123,6 +129,7 @@
           <button class="tab" data-filter="female">여자 솔로 <span id="countFemale">0</span></button>
           <button class="tab" data-filter="couple">함께 <span id="countCouple">0</span></button>
           <button class="tab" data-filter="outdoor">야외 <span id="countOutdoor">0</span></button>
+          <button class="tab" id="deleteTab" data-filter="deleted" hidden>삭제 <span id="countDeleted">0</span></button>
         </nav>
         <div class="local-tools" id="localTools" hidden>
           <button type="button" id="selectModeBtn">여러 장 선택</button>
@@ -162,6 +169,8 @@
     const selectModeBtn=document.querySelector('#selectModeBtn');
     const selectedCount=document.querySelector('#selectedCount');
     const deleteSelectedBtn=document.querySelector('#deleteSelectedBtn');
+    const tabs=document.querySelector('.tabs');
+    const deleteTab=document.querySelector('#deleteTab');
     const sourceDefaultText=focusSource.textContent;
 
     function renderCards(){
@@ -175,7 +184,13 @@
         card.style.animationDelay=`${Math.min(index,18)*18}ms`;
         card.setAttribute('aria-label',`${item.categoryLabel} ${String(index+1).padStart(3,'0')} 크게 보기`);
         card.innerHTML=`<img src="${item.src}" alt="${item.categoryLabel} 웨딩 포즈 · ${item.studio}" loading="lazy" decoding="async"><span class="card-meta"><b>${item.categoryLabel}</b><i>${String(index+1).padStart(3,'0')}</i></span>`;
-        if(window.__LOCAL_DEV__){
+        if(window.__LOCAL_DEV__&&item.category==='deleted'){
+          const restore=document.createElement('div');restore.className='restore-tools';
+          [['male','남자 솔로'],['female','여자 솔로'],['couple','함께'],['outdoor','야외']].forEach(([category,label])=>{
+            const button=document.createElement('button');button.type='button';button.textContent=label;button.addEventListener('click',event=>{event.stopPropagation();restoreImage(item,category,button)});restore.appendChild(button);
+          });
+          card.appendChild(restore);
+        }else if(window.__LOCAL_DEV__){
           const mark=document.createElement('span');mark.className='select-mark';mark.textContent='✓';mark.setAttribute('aria-hidden','true');card.appendChild(mark);
           const remove=document.createElement('button');remove.className='delete-btn';remove.type='button';remove.textContent='×';remove.title='이 사진 파일 삭제';remove.setAttribute('aria-label',`${item.categoryLabel} 사진 파일 삭제`);
           remove.addEventListener('click',event=>{event.stopPropagation();deleteImage(item,remove)});card.appendChild(remove);
@@ -184,6 +199,16 @@
         card.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();state.selectionMode?toggleSelected(item,card):selectItem(item)}});
         fragment.appendChild(card);
       }); grid.appendChild(fragment);
+    }
+
+    async function restoreImage(item,category,button){
+      button.disabled=true;button.textContent='복원 중…';
+      try{
+        const response=await fetch('/__restore-image',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({path:imagePath(item),category})});
+        if(!response.ok)throw new Error('복원 실패');
+      }catch(error){
+        button.disabled=false;button.textContent='다시 시도';alert('사진을 복원하지 못했습니다. 개발 서버를 다시 확인해 주세요.');
+      }
     }
 
     function imagePath(item){return item.src.split('?')[0]}
@@ -243,9 +268,11 @@
     }
 
     function applyFilter(filter){
-      state.filter=filter;state.visible=filter==='all'?items:items.filter(item=>item.category===filter);state.current=0;
+      if(window.__LOCAL_DEV__&&filter==='deleted'&&state.selectionMode)setSelectionMode(false);
+      state.filter=filter;state.visible=filter==='all'?items.filter(item=>item.category!=='deleted'):items.filter(item=>item.category===filter);state.current=0;
       document.querySelectorAll('.tab').forEach(tab=>tab.classList.toggle('active',tab.dataset.filter===filter));
-      document.querySelectorAll('.card').forEach(card=>card.hidden=filter!=='all'&&card.dataset.category!==filter);
+      document.querySelectorAll('.card').forEach(card=>card.hidden=filter==='all'?card.dataset.category==='deleted':card.dataset.category!==filter);
+      if(window.__LOCAL_DEV__){localTools.hidden=filter==='deleted';sessionStorage.setItem('poseFilter',filter)}
       document.querySelector('#empty').style.display=state.visible.length?'none':'block';
       if(state.visible.length)selectItem(state.visible[0]);pane.scrollTo({top:0,behavior:'smooth'});
     }
@@ -273,14 +300,18 @@
         if(!response.ok)throw new Error(`HTTP ${response.status}`);
         items=await response.json();
         const count=category=>items.filter(item=>item.category===category).length;
-        document.querySelector('#countAll').textContent=items.length;
+        const regularItems=items.filter(item=>item.category!=='deleted');
+        document.querySelector('#countAll').textContent=regularItems.length;
         document.querySelector('#countMale').textContent=count('male');
         document.querySelector('#countFemale').textContent=count('female');
         document.querySelector('#countCouple').textContent=count('couple');
         document.querySelector('#countOutdoor').textContent=count('outdoor');
-        document.querySelector('#brandCount').textContent=`Korean Wedding Studios · Curated ${items.length}`;
-        if(window.__LOCAL_DEV__)localTools.hidden=false;
-        renderCards();applyFilter('all');
+        document.querySelector('#countDeleted').textContent=count('deleted');
+        document.querySelector('#brandCount').textContent=`Korean Wedding Studios · Curated ${regularItems.length}`;
+        if(window.__LOCAL_DEV__){deleteTab.hidden=false;tabs.classList.add('local')}
+        renderCards();
+        const savedFilter=window.__LOCAL_DEV__?sessionStorage.getItem('poseFilter'):'all';
+        applyFilter(['all','male','female','couple','outdoor','deleted'].includes(savedFilter)?savedFilter:'all');
       }catch(error){
         const empty=document.querySelector('#empty');
         empty.style.display='block';

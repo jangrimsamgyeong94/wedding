@@ -1,8 +1,8 @@
 import { createServer } from 'node:http';
-import { readFile, stat, unlink, watch } from 'node:fs/promises';
-import { extname, join, normalize, resolve, sep } from 'node:path';
+import { mkdir, readFile, rename, stat, watch } from 'node:fs/promises';
+import { basename, extname, join, normalize, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { generateManifest, removeCatalogEntry } from './generate-manifest.mjs';
+import { generateManifest, moveCatalogEntries } from './generate-manifest.mjs';
 
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const port = Number(process.env.PORT || 4173);
@@ -15,6 +15,8 @@ const types = {
 const clients = new Set();
 let rebuildTimer;
 let suppressWatchUntil = 0;
+const deleteFolder = join(root, 'images', 'delete');
+await mkdir(deleteFolder, { recursive: true });
 
 function notifyReload() {
   for (const response of clients) response.write('data: reload\n\n');
@@ -23,12 +25,12 @@ function notifyReload() {
 async function rebuildAndReload() {
   clearTimeout(rebuildTimer);
   rebuildTimer = setTimeout(async () => {
-    await generateManifest();
+    await generateManifest({ includeDeleted: true });
     notifyReload();
   }, 120);
 }
 
-await generateManifest();
+await generateManifest({ includeDeleted: true });
 (async () => {
   try {
     for await (const event of watch(join(root, 'images'), { recursive: true })) {
@@ -62,16 +64,60 @@ createServer(async (request, response) => {
         if (!filePath.startsWith(imagesRoot)) throw new Error('Invalid image path');
         const info = await stat(filePath);
         if (!info.isFile()) throw new Error('Not a file');
-        targets.push({ webPath, filePath });
+        const sourceFolder = webPath.split('/')[1];
+        let targetName = `${sourceFolder}--${basename(webPath)}`;
+        let targetPath = join(deleteFolder, targetName);
+        for (let sequence = 2; ; sequence += 1) {
+          try { await stat(targetPath); targetName = `${sourceFolder}--${sequence}--${basename(webPath)}`; targetPath = join(deleteFolder, targetName); }
+          catch (error) { if (error.code === 'ENOENT') break; throw error; }
+        }
+        targets.push({ webPath, filePath, targetPath, targetWebPath: `images/delete/${targetName}` });
       }
       suppressWatchUntil = Date.now() + 1000;
       for (const target of targets) {
-        await unlink(target.filePath);
-        await removeCatalogEntry(target.webPath);
+        await rename(target.filePath, target.targetPath);
       }
-      const items = await generateManifest();
+      await moveCatalogEntries(targets.map(target => ({ from: target.webPath, to: target.targetWebPath })));
+      const items = await generateManifest({ includeDeleted: true });
       response.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' });
       response.end(JSON.stringify({ ok: true, deleted: targets.length, count: items.length }));
+      notifyReload();
+    } catch (error) {
+      response.writeHead(400, { 'Content-Type': 'application/json; charset=utf-8' });
+      response.end(JSON.stringify({ ok: false, error: error.message }));
+    }
+    return;
+  }
+  if (request.method === 'POST' && request.url === '/__restore-image') {
+    try {
+      let raw = '';
+      for await (const chunk of request) {
+        raw += chunk;
+        if (raw.length > 2048) throw new Error('Request too large');
+      }
+      const payload = JSON.parse(raw);
+      const webPath = String(payload.path || '').replaceAll('\\', '/');
+      const folders = { male: 'man', female: 'women', couple: 'couple', outdoor: 'outdoor' };
+      const targetFolder = folders[payload.category];
+      if (!targetFolder || !/^images\/delete\/[^/]+\.(jpe?g|png|webp|gif|avif)$/i.test(webPath)) throw new Error('Invalid restore request');
+      const sourcePath = resolve(root, webPath);
+      if (!sourcePath.startsWith(resolve(root, 'images', 'delete') + sep)) throw new Error('Invalid image path');
+      const info = await stat(sourcePath);
+      if (!info.isFile()) throw new Error('Not a file');
+      const originalName = basename(webPath).replace(/^(man|women|couple|outdoor)--(?:(?:\d+)--)?/, '');
+      let targetName = originalName;
+      let targetPath = join(root, 'images', targetFolder, targetName);
+      for (let sequence = 2; ; sequence += 1) {
+        try { await stat(targetPath); targetName = `restored-${sequence}--${originalName}`; targetPath = join(root, 'images', targetFolder, targetName); }
+        catch (error) { if (error.code === 'ENOENT') break; throw error; }
+      }
+      const targetWebPath = `images/${targetFolder}/${targetName}`;
+      suppressWatchUntil = Date.now() + 1000;
+      await rename(sourcePath, targetPath);
+      await moveCatalogEntries([{ from: webPath, to: targetWebPath }]);
+      const items = await generateManifest({ includeDeleted: true });
+      response.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' });
+      response.end(JSON.stringify({ ok: true, path: targetWebPath, count: items.length }));
       notifyReload();
     } catch (error) {
       response.writeHead(400, { 'Content-Type': 'application/json; charset=utf-8' });

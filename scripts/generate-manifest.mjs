@@ -14,13 +14,15 @@ const categories = [
   ['couple', 'couple', '함께'],
   ['outdoor', 'outdoor', '야외 셀프웨딩'],
 ];
+const deletedCategory = ['delete', 'deleted', '삭제 보관함'];
 
-export async function generateManifest() {
+export async function generateManifest({ includeDeleted = false } = {}) {
   let catalog = {};
   try { catalog = JSON.parse(await readFile(catalogPath, 'utf8')); } catch {}
 
   const items = [];
-  for (const [folder, category, categoryLabel] of categories) {
+  const scanCategories = includeDeleted ? [...categories, deletedCategory] : categories;
+  for (const [folder, category, categoryLabel] of scanCategories) {
     const folderPath = join(imagesRoot, folder);
     const entries = (await readdir(folderPath, { withFileTypes: true }))
       .filter(entry => entry.isFile() && supported.has(extname(entry.name).toLowerCase()))
@@ -47,13 +49,18 @@ export async function generateManifest() {
   return items;
 }
 
-export async function removeCatalogEntry(webPath) {
+export async function moveCatalogEntries(moves) {
   let catalog = {};
   try { catalog = JSON.parse(await readFile(catalogPath, 'utf8')); } catch { return; }
-  if (Object.hasOwn(catalog, webPath)) {
-    delete catalog[webPath];
-    await writeFile(catalogPath, `${JSON.stringify(catalog, null, 2)}\n`, 'utf8');
+  let changed = false;
+  for (const { from, to } of moves) {
+    if (Object.hasOwn(catalog, from)) {
+      catalog[to] = catalog[from];
+      delete catalog[from];
+      changed = true;
+    }
   }
+  if (changed) await writeFile(catalogPath, `${JSON.stringify(catalog, null, 2)}\n`, 'utf8');
 }
 
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
