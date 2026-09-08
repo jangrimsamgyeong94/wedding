@@ -172,6 +172,23 @@
     const tabs=document.querySelector('.tabs');
     const deleteTab=document.querySelector('#deleteTab');
     const sourceDefaultText=focusSource.textContent;
+    const reloadStateKey='poseAtlasReloadState';
+
+    function saveReloadState(){
+      if(!window.__LOCAL_DEV__)return;
+      const currentItem=state.visible[state.current];
+      sessionStorage.setItem(reloadStateKey,JSON.stringify({
+        filter:state.filter,
+        scrollTop:pane.scrollTop,
+        currentPath:currentItem?imagePath(currentItem):'',
+      }));
+    }
+
+    function readReloadState(){
+      if(!window.__LOCAL_DEV__)return null;
+      try{return JSON.parse(sessionStorage.getItem(reloadStateKey)||'null')}
+      catch{return null}
+    }
 
     function renderCards(){
       grid.replaceChildren();
@@ -267,14 +284,15 @@
       if(scrollFocus&&innerWidth<=980)document.querySelector('.stage').scrollIntoView({behavior:'smooth'});
     }
 
-    function applyFilter(filter){
+    function applyFilter(filter,resetScroll=true){
       if(window.__LOCAL_DEV__&&filter==='deleted'&&state.selectionMode)setSelectionMode(false);
       state.filter=filter;state.visible=filter==='all'?items.filter(item=>item.category!=='deleted'):items.filter(item=>item.category===filter);state.current=0;
       document.querySelectorAll('.tab').forEach(tab=>tab.classList.toggle('active',tab.dataset.filter===filter));
       document.querySelectorAll('.card').forEach(card=>card.hidden=filter==='all'?card.dataset.category==='deleted':card.dataset.category!==filter);
       if(window.__LOCAL_DEV__){localTools.hidden=filter==='deleted';sessionStorage.setItem('poseFilter',filter)}
       document.querySelector('#empty').style.display=state.visible.length?'none':'block';
-      if(state.visible.length)selectItem(state.visible[0]);pane.scrollTo({top:0,behavior:'smooth'});
+      if(state.visible.length)selectItem(state.visible[0]);
+      if(resetScroll)pane.scrollTo({top:0,behavior:'smooth'});
     }
 
     function step(direction,followCard=false){
@@ -310,8 +328,16 @@
         document.querySelector('#brandCount').textContent=`Korean Wedding Studios · Curated ${regularItems.length}`;
         if(window.__LOCAL_DEV__){deleteTab.hidden=false;tabs.classList.add('local')}
         renderCards();
-        const savedFilter=window.__LOCAL_DEV__?sessionStorage.getItem('poseFilter'):'all';
-        applyFilter(['all','male','female','couple','outdoor','deleted'].includes(savedFilter)?savedFilter:'all');
+        const reloadState=readReloadState();
+        const savedFilter=reloadState?.filter||(window.__LOCAL_DEV__?sessionStorage.getItem('poseFilter'):'all');
+        const filter=['all','male','female','couple','outdoor','deleted'].includes(savedFilter)?savedFilter:'all';
+        applyFilter(filter,!reloadState);
+        if(reloadState){
+          const restoredIndex=state.visible.findIndex(item=>imagePath(item)===reloadState.currentPath);
+          if(restoredIndex>=0)selectItem(state.visible[restoredIndex]);
+          requestAnimationFrame(()=>requestAnimationFrame(()=>pane.scrollTo({top:Number(reloadState.scrollTop)||0,behavior:'auto'})));
+          sessionStorage.removeItem(reloadStateKey);
+        }
       }catch(error){
         const empty=document.querySelector('#empty');
         empty.style.display='block';
@@ -336,6 +362,7 @@
       if(event.key in moves){event.preventDefault();step(moves[event.key],true)}
       if(event.key==='1')applyFilter('male');if(event.key==='2')applyFilter('female');if(event.key==='3')applyFilter('couple');if(event.key==='4')applyFilter('outdoor');
     });
+    addEventListener('beforeunload',saveReloadState);
 
     loadItems();
   </script>
